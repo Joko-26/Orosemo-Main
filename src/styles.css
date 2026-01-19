@@ -177,5 +177,9 @@ code {
   .site-headline {
     @apply space-y-3 p-4 text-foreground text-sm md:text-lg lg:text-xl xl:text-2xl
   }
+
+  .mini-headline {
+    @apply space-y-3 p-4 text-foreground text-xs md:text-base lg:text-lg xl:text-xl
+  }
 }
 

@@ -1,63 +1,68 @@
 "use client";
-
+import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { BotOff } from "lucide-react";
 import { getAssetPath } from "@/lib/assets";
+import {
+  SiItchdotio,
+  SiGithub,
+  SiBluesky,
+  SiYoutube
+} from "@icons-pack/react-simple-icons";
 
 export default function Footer() {
   const { t } = useLanguage();
   return (
     <div className="flex items-strech self-center justify-self-center py-4 bg-background border-t gap-4">
       <div className="flex gap-2">
-        <a
-          href="https://tr.ee/Orosemo-Discord"
+        <motion.a
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Itch.io"
+          title="Itch.io"
+          whileHover={{ scale: 1.2, rotate: 5 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
-          {" "}
-          <img
-            className="flex icon self-center justify-self-center"
-            src={getAssetPath("/cardImg/discord.png")}
-            alt=""
-          />
-        </a>
-        <a
-          href="https://orosemo.itch.io/"
+          <SiItchdotio size={32} />
+        </motion.a>
+        <motion.a
+          href="https://github.com/Joko-26"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Github"
+          title="Github"
+          whileHover={{ scale: 1.2, rotate: 5 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
-          {" "}
-          <img
-            className="flex icon self-center justify-self-center"
-            src={getAssetPath("/cardImg/itch.png")}
-            alt=""
-          />
-        </a>
-        <a
+          <SiGithub size={32} />
+        </motion.a>
+        <motion.a
           href="https://bsky.app/profile/orosemo.de"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Bluesky"
+          title="Bluesky"
+          whileHover={{ scale: 1.2, rotate: 5 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
-          {" "}
-          <img
-            className="flex icon self-center justify-self-center"
-            src={getAssetPath("/cardImg/bluesky.png")}
-            alt=""
-          />
-        </a>
-
-        <a
+          <SiBluesky size={32} />
+        </motion.a>
+        <motion.a
           href="https://www.youtube.com/@Orosemo"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Youtube"
+          title="Youtube"
+          whileHover={{ scale: 1.2, rotate: 5 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
-          {" "}
-          <img
-            className="flex icon self-center justify-self-center"
-            src={getAssetPath("/cardImg/youtube.png")}
-            alt=""
-          />
-        </a>
+          <SiYoutube size={32} />
+        </motion.a>
       </div>
       <div className="flex gap-1">
         <BotOff />

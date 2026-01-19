@@ -130,22 +130,70 @@ export function ProjectCard({
     <div className="flex flex-row">
       {plattforms.split(":").map((plattform, id) => {
         if (plattform == "Win") {
-          return <DiWindows key={id} />;
+          return (
+            <motion.div
+              key={id}
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            >
+              <DiWindows />
+            </motion.div>
+          );
         }
         if (plattform == "Web") {
-          return <DiHtml5 key={id} />;
+          return (
+            <motion.div
+              key={id}
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            >
+              <DiHtml5 />
+            </motion.div>
+          );
         }
         if (plattform == "Mac") {
-          return <DiApple key={id} />;
+          return (
+            <motion.div
+              key={id}
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            >
+              <DiApple />
+            </motion.div>
+          );
         }
         if (plattform == "Lin") {
-          return <DiLinux key={id} />;
+          return (
+            <motion.div
+              key={id}
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            >
+              <DiLinux />
+            </motion.div>
+          );
         }
         if (plattform == "And") {
-          return <AiFillAndroid key={id} />;
+          return (
+            <motion.div
+              key={id}
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            >
+              <AiFillAndroid />
+            </motion.div>
+          );
         }
         if (plattform == "Dis") {
-          return <FaDiscord key={id} />;
+          return (
+            <motion.div
+              key={id}
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            >
+              <FaDiscord />
+            </motion.div>
+          );
         }
       })}
     </div>

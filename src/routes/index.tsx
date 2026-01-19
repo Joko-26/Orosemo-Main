@@ -83,14 +83,14 @@ function App() {
           </motion.div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center" id="content">
+      <div className="flex flex-col items-center justify-center">
         <img
           className="justify-self-center p-5"
           src={getAssetPath("/logos/orosemo_name.png")}
 
           alt="orosemo name"
         />
-        <div className="flex flex-col items-center justify-center gap-y-2 mx-10 sm:mx-5 md:mx-0">
+        <div className="flex flex-col items-center justify-center gap-y-2 mx-10 sm:mx-5 md:mx-0" id="content">
           {Object.entries(cardsObj).map(([key, card]: [string, any]) => (
             <DefaultCard
               key={key}

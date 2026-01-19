@@ -10,8 +10,8 @@
   "ai": "Nicht KI-generiert",
 
   "mainPage": {
-    "Greeting": "Hi, ich bin Jakob Friedrich (Joko 26) 👋",
-    "subGreeting": "Ein 15-jähriger Programmierer aus Deutschland, der Spiele, Web-Apps und Tools entwickelt, um neue Dinge zu lernen und Ideen zu teilen.",
+    "Greeting": "Hi, ich bin Joko26👋",
+    "subGreeting": "Ein 16-jähriger Programmierer aus Deutschland, der Spiele, Web-Apps und Tools entwickelt, um neue Dinge zu lernen und Ideen zu teilen.",
     "button": "mehr anzeigen",
     "cards": {
       "discord": {
@@ -123,16 +123,20 @@
       }
     },
     "email": {
-      "head": "Meine Email",
+      "head": "Email",
       "text": "Schreib mir gerne eine Email, ich versuche zeitig zu antworten.",
       "email": "contact@orosemo.de"
     }
   },
 
-  "aboutPage":{
-    "head":"Hi, ich bin Jakob Friedrich (Joko 26) 👋",
-    "overview": "Ein 15-jähriger Programmierer aus Deutschland, der Spiele, Web-Apps und Tools entwickelt, um neue Dinge zu lernen und Ideen zu teilen.",
-    "skills":"Meine Stärken:",
-    "tools":"Meine Lieblings Werkzeuge:"
-  }
+"aboutPage": {
+  "head": "Hallo, ich bin Joko26",
+  "overview": "Ich bin ein **16-jähriger** Programmierer aus **Deutschland**, der das Programmieren liebt. Ich habe mit 11 Jahren angefangen mit [Python](https://www.python.org/) zu programmieren und habe im Laufe der Zeit viele verschiedene Sprachen, Tools und Frameworks ausprobiert. Hauptsächlich arbeite ich an Webprojekten, Tools und [Spielen](https://orosemo.itch.io/) und versuche dabei immer, etwas Neues zu lernen und mich weiterzuentwickeln. Diese Website ist mein Ort, um zu zeigen, woran ich gerade arbeite, und meine bisherigen Arbeiten zu präsentieren.",
+  "transition": "Unten kannst du einige meiner Lieblingswerkzeuge und Technologien sehen, mit denen ich am besten vertraut bin.",
+  "skills": "Meine Stärken:",
+  "skillsContent": "Die Frameworks/Technologien, mit denen ich am besten vertraut bin.",
+  "tools": "Meine Lieblingswerkzeuge:",
+  "toolsContent": "Die Tools, die ich am häufigsten benutze.",
+  "games": "Meine Lieblingsspiele"
+}
 }
