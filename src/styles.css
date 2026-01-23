@@ -19,10 +19,11 @@ code {
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #231f2a;
-  --highlight: #2d8086;
-  --highlight-hover: #68c2c9;
+  --background: #F6F7EF;
+  --foreground: #000000;
+  --highlight: #09262B;
+  --highlight-hover: #155442;
+  --highlight-light: #39816D;
   --card: #ffffff;
   --card-foreground: #231f2a;
   --popover: #ffffff;
@@ -37,7 +38,7 @@ code {
   --accent-foreground: #3a2d4a;
   --destructive: #b94e2d;
   --destructive-foreground: #b94e2d;
-  --border: #ebebf7;
+  --border: #000000;
   --input: #ebebf7;
   --ring: #dedcf7;
   --chart-1: #e1b85a;
@@ -59,10 +60,51 @@ code {
 }
 
 .dark {
+  --background: #000000;
+  --foreground: #F6F7EF;
+  --highlight: #09262B;
+  --highlight-hover: #155442;
+  --highlight-light: #39816D;
+  --card: #231f2a;
+  --card-foreground: #fcfcfc;
+  --popover: #231f2a;
+  --popover-foreground: #fcfcfc;
+  --primary: #fcfcfc;
+  --primary-foreground: #3a2d4a;
+  --secondary: #2d2a3a;
+  --secondary-foreground: #fcfcfc;
+  --muted: #2d2a3a;
+  --muted-foreground: #b4b0c2;
+  --accent: #2d2a3a;
+  --accent-foreground: #fcfcfc;
+  --destructive: #7a3a2b;
+  --destructive-foreground: #a34e2a;
+  --border: #000000;
+  --input: #2d2a3a;
+  --ring: #6f6a8a;
+  --chart-1: #5e7fd6;
+  --chart-2: #7ad2b7;
+  --chart-3: #f3d35c;
+  --chart-4: #7e5fd6;
+  --chart-5: #bfae6a;
+  --sidebar: #3a2d4a;
+  --sidebar-foreground: #fcfcfc;
+  --sidebar-primary: #5e7fd6;
+  --sidebar-primary-foreground: #fcfcfc;
+  --sidebar-accent: #2d2a3a;
+  --sidebar-accent-foreground: #fcfcfc;
+  --sidebar-border: #2d2a3a;
+  --sidebar-ring: #6f6a8a;
+  --link: #204ad4;
+  --link-hover: #7995f1;
+}
+
+.halloween {
   --background: #09090b;
   --foreground: #fafafa;
-  --highlight: #2d8086;
-  --highlight-hover: #68c2c9;
+  --highlight: #C7461A;
+  --highlight-hover: #FBAA38;
+  --highlight-light: #F26C23;
   --card: #231f2a;
   --card-foreground: #fcfcfc;
   --popover: #231f2a;
@@ -102,6 +144,7 @@ code {
   --color-foreground: var(--foreground);
   --color-highlight: var(--highlight);
   --color-highlight-hover: var(--highlight-hover);
+  --color-highlight-light: var(--highlight-light);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);
@@ -151,15 +194,15 @@ code {
 
 @layer components {
   .btn-primary {
-    @apply px-4 py-2 rounded-lg font-semibold text-foreground bg-highlight hover:bg-highlight/80 transition-colors cursor-pointer;
+    @apply px-4 py-2 rounded-lg font-semibold text-foreground bg-highlight hover:bg-highlight-hover transition-colors cursor-pointer;
   }
 
   .card-border {
-    @apply border-4 rounded-lg border-highlight my-3 mx-4 md:mx-15 lg:mx-20 xl:mx-30 hover:border-highlight-hover shadow-2xl transition-shadow duration-200 ease-in-out
+    @apply border-4 rounded-lg border-highlight my-3 mx-4 md:mx-15 lg:mx-20 xl:mx-30 hover:border-highlight-light shadow-2xl transition-shadow duration-200 ease-in-out
   }
 
   .btn-link {
-    @apply px-4 py-2 rounded-lg font-semibold text-center text-foreground bg-highlight hover:bg-highlight/80 transition-colors cursor-pointer min-w-5 md:min-w-15 lg:min-w-30 xl:min-w-50;
+    @apply px-4 py-2 rounded-lg font-semibold text-center text-highlight-hover hover:text-highlight bg-highlight hover:bg-highlight-hover transition-colors cursor-pointer min-w-5 md:min-w-15 lg:min-w-30 xl:min-w-50;
   }
 
   .headline {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export function useTheme() {
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
+  const [theme, setTheme] = useState<"light" | "dark" | "halloween">("dark");
 
   useEffect(() => {
     // Initiale Theme-Erkennung nach dem Mount
@@ -13,8 +13,13 @@ export function useTheme() {
   useEffect(() => {
     // sets the theme by adding the html class
     if (theme === "dark") {
+      document.documentElement.classList.remove("halloween")
       document.documentElement.classList.add("dark");
+    } else if (theme === "halloween") {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("halloween");
     } else {
+      document.documentElement.classList.remove("halloween")
       document.documentElement.classList.remove("dark");
     }
   }, [theme]);

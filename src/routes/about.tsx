@@ -47,7 +47,7 @@ function RouteComponent() {
                   {...props}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-highlight underline hover:text-highlight-hover"
+                  className="text-highlight-light underline hover:text-highlight-hover"
                 />
               ),
             }}
