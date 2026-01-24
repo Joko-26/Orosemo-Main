@@ -20,12 +20,14 @@ import {
 import { Separator } from "@/components/ui/separator";
 import ReactMarkdown from "react-markdown";
 import { motion } from "framer-motion";
+import { useImages } from "@/context/ImageContext";
 
 export const Route = createFileRoute("/about")({
   component: RouteComponent,
 });
 
 function RouteComponent() {
+  const { pfp } = useImages();
   const { t } = useLanguage();
 
   return (
@@ -33,7 +35,7 @@ function RouteComponent() {
       <div>
         <img
           className="rounded-full justify-self-center self-center max-w-20 md:justify-self-start md:max-w-30 lg:max-w-40 xl:max-w-50"
-          src={getAssetPath("/pfp/pfp-christmas.jpeg")}
+          src={getAssetPath(pfp)}
           alt=""
         />
       </div>

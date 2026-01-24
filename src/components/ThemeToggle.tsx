@@ -2,8 +2,8 @@
 
 import { Sun, Moon, Ghost } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useTheme } from "@/hooks/useTheme";
-import { useEffect, useMemo } from "react";
+import { useTheme } from "@/hooks/useTheme.tsx";
+import { useMemo } from "react";
 
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme();
@@ -26,7 +26,7 @@ export function ThemeToggle() {
   function nextTheme() {
     const currentIndex = themes.indexOf(theme);
     const nextIndex = (currentIndex + 1) % themes.length;
-    setTheme(themes[nextIndex]);
+    setTheme(themes[nextIndex] as "light" | "dark" | "halloween");
   }
 
   return (
@@ -36,7 +36,7 @@ export function ThemeToggle() {
       size="icon"
       onClick={() => nextTheme()}
     >
-      {themeIcons[themes[(themes.indexOf(theme) + 1) % themes.length]] || themeIcons["light"]}
+      {themeIcons[themes[(themes.indexOf(theme) + 1) % themes.length] as keyof typeof themeIcons] || themeIcons["light"]}
     </Button>
   );
 }

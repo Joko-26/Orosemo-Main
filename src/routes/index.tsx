@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import DefaultCard from "../components/Cards";
 import { ChevronDown } from "lucide-react";
 import { getAssetPath } from "@/lib/assets";
+import { useImages } from "@/context/ImageContext";
 
 export const Route = createFileRoute("/")({
   component: App,
@@ -12,6 +13,7 @@ export const Route = createFileRoute("/")({
 
 function App() {
   const { t } = useLanguage();
+  const { name, pfp } = useImages()
   const [BgImage, setBgImage] = useState("");
   const images = [
     getAssetPath("/backgrounds/2.png"),
@@ -56,7 +58,7 @@ function App() {
               <div>
                 <img
                   className="rounded-full justify-self-center self-center max-w-20 md:justify-self-start md:max-w-30 lg:max-w-40 xl:max-w-50"
-                  src={getAssetPath("/pfp/pfp-christmas.jpeg")}
+                  src={getAssetPath(pfp)}
                   alt=""
                 />
               </div>
@@ -86,7 +88,7 @@ function App() {
       <div className="flex flex-col items-center justify-center">
         <img
           className="justify-self-center p-5"
-          src={getAssetPath("/logos/orosemo_name.png")}
+          src={getAssetPath(name)}
 
           alt="orosemo name"
         />

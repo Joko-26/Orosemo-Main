@@ -16,7 +16,8 @@ import { useLanguage } from "@/context/LanguageContext";
 import { useState } from "react";
 import { getAssetPath } from "@/lib/assets";
 import { motion } from "framer-motion";
-
+import { useImages } from "@/context/ImageContext";
+import useSound from "use-sound";
 import ScrollToTopButton from "./ScrollToTop";
 
 function DesktopMenu() {
@@ -117,11 +118,16 @@ function MobileMenu() {
 }
 
 export default function Header() {
+  const { logo } = useImages();
+
+  const [clickSFX] = useSound("/sounds/click.mp3")
+
   const threshhold = Math.floor(Math.random() * (7 - 2 + 1) + 2);
   let click = 0;
 
   function logoClick() {
     click += 1;
+    clickSFX()
     if (threshhold == click) {
       click = 0;
       window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0", "_blank");
@@ -142,7 +148,7 @@ export default function Header() {
             onClick={logoClick}
           >
             <img
-              src={getAssetPath("/logos/ororsemo_logo_trans_100.png")}
+              src={getAssetPath(logo)}
               alt="orosemo"
               className="cursor-pointer h-10 gap-2"
             />

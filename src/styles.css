@@ -97,10 +97,11 @@ code {
   --sidebar-ring: #6f6a8a;
   --link: #204ad4;
   --link-hover: #7995f1;
+  
 }
 
 .halloween {
-  --background: #09090b;
+  --background: #000000;
   --foreground: #fafafa;
   --highlight: #C7461A;
   --highlight-hover: #FBAA38;

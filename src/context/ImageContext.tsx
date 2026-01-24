@@ -1,17 +1,73 @@
 "use client";
 
-import React, { createContext, useContext, useState, ReactNode, useEffect } from "react";
-import { useTheme } from "@/hooks/useTheme";
+import React, {
+  createContext,
+  useContext,
+  useState,
+  ReactNode,
+  useEffect,
+} from "react";
+import { useTheme } from "@/hooks/useTheme.tsx";
 
 type ImageContextValue = {
-    logo: string | null
-    name: string | null
-    logo_small: string | null
-    name_small: string | null
+  logo: string | null;
+  name: string | null;
+  logo_small: string | null;
+  name_small: string | null;
+  pfp: string | null;
+};
+
+const ImageContext = createContext<ImageContextValue | undefined>(undefined);
+
+export function ImageContextProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const { theme } = useTheme();
+
+  const [image, SetImages] = useState<ImageContextValue>({
+    // Default to the standard theme assets so the initial render has valid values
+    logo: "/logos/orosemo_logo_trans_1000.png",
+    name: "/logos/orosemo_name_1000.png",
+    logo_small: "/logos/orosemo_logo_trans",
+    name_small: "/logos/orosemo_name.png",
+    pfp: "/pfp/pfp-normal.jpeg",
+  });
+
+  useEffect(() => {
+    if (theme === "halloween") {
+      SetImages({
+        logo: "/logos/halloween_logo_1000.png",
+        name: "/logos/halloween_name_1000.png",
+        logo_small: "/logos/halloween_logo.png",
+        name_small: "/logos/halloween_name.png",
+        pfp: "/pfp/pfp_halloween.jpg",
+      });
+    } else if (theme === "dark") {
+      SetImages({
+        logo: "/logos/ororsemo_logo_trans.png",
+        name: "/logos/orosemo_name_1000.png",
+        logo_small: "/logos/ororsemo_logo_trans_100.png",
+        name_small: "/logos/orosemo_name.png",
+        pfp: "/pfp/pfp-normal.jpeg",
+      });
+    } else if (theme === "light") {
+      SetImages({
+        logo: "/logos/ororsemo_logo_trans.png",
+        name: "/logos/orosemo_name_1000.png",
+        logo_small: "/logos/ororsemo_logo_trans_100.png",
+        name_small: "/logos/orosemo_name.png",
+        pfp: "/pfp/pfp-normal.jpeg",
+      });
+    }
+  }, [theme]);
+
+  return <ImageContext.Provider value={image}>{children}</ImageContext.Provider>;
 }
 
-const ImageContext = createContext<ImageContextValue | undefined>(undefined)
-
-const export function ImageContextProvider({children}: {children:React.ReactNode}) {
-    const 
+export function useImages() {
+    const ctx = useContext(ImageContext)
+    if (!ctx) throw new Error("useImages must be used inside ImageContextProvider")
+    return ctx
 }
