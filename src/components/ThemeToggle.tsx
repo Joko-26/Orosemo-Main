@@ -17,7 +17,7 @@ export function ThemeToggle() {
   const themes = useMemo(() => {
     const baseThemes = ["light", "dark"];
     const currentDate = new Date();
-    if (currentDate.getMonth() === 9) {
+    if (currentDate.getMonth() === 0) {
       baseThemes.push("halloween");
     }
     return baseThemes;

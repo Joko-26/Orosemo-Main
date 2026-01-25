@@ -28,7 +28,7 @@ function RouteComponent() {
             className="card-border flex flex-row w-full gap-6 p-5 text-sm  md:text-lg lg:text-xl xl:text-2xl max-w-sm sm:max-w-lg md:max-w-xl lg:max-w-3xl xl:max-w-6xl"
           >
             <h1 className="text-sm  md:text-lg lg:text-1xl xl:text-3xl">{t?.contactsPage?.email?.head}</h1>
-            <h2 className="">{t?.contactsPage?.email?.text}</h2>
+            <h2 className="hidden md:flex">{t?.contactsPage?.email?.text}</h2>
             <h2 className="underline text-sm  md:text-lg lg:text-1xl xl:text-3xl">contact@orosemo.de</h2>
           </motion.div>
         </div>
