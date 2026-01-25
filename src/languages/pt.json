@@ -1,0 +1,113 @@
+{
+  "_name": "Português",
+  "home": "Início",
+  "about": "Sobre",
+  "tools": "Ferramentas",
+  "contact": "Contato",
+  "games": "Jogos",
+  "language": "Idioma",
+  "discord": "Junte-se ao meu servidor Discord",
+  "ai": "Não gerado por IA",
+  "mainPage": {
+    "Greeting": "Oi, eu sou Joko26 👋",
+    "subGreeting": "Um programador de 16 anos da Alemanha que cria jogos, aplicativos web e ferramentas para aprender coisas novas e compartilhar ideias.",
+    "button": "veja mais",
+    "contactButton": "entre em contato comigo",
+    "cards": {
+      "discord": {
+        "head": "Minha comunidade Discord",
+        "text": "Bem-vindo ao Discord oficial do Orosemo, meu hub comunitário. Aqui você pode se conectar com outros, obter acesso antecipado a atualizações e trocar conhecimento com outros que pensam como você. Você também encontrará canais comunitários para conversar, colaborar e compartilhar suas próprias criações. Todos são bem-vindos para se juntar ao servidor e interagir com a comunidade!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Junte-se agora"
+      },
+      "itch": {
+        "head": "Minha página Itch.io",
+        "text": "Aqui você encontrará todos os meus jogos, mais tudo relacionado a eles: pacotes de ativos, demos, projetos Game Jam (pequenas competições de desenvolvimento de jogos (WIP 😅)) e mais. Siga-me se quiser ver tudo que vou construir no futuro!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Ver agora"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Meus Jogos",
+    "subHeadline": "Todos os jogos que criei até agora.",
+    "search": "procurar jogo",
+    "play": "jogar no itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Um jogo de saltos com tema natalino com o objetivo de recuperar os presentes roubados pelo Grinch. Cada nível é um desafio implacável e difícil.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Um platformer difícil com tema de Páscoa em que o jogador controla um ovo tentando voltar ao ninho correto após ser colocado no ninho de um pássaro.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Minhas Ferramentas",
+    "subHeadline": "Todas as ferramentas que criei até agora.",
+    "search": "procurar ferramenta",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Crie códigos QR online gratuitamente e personalize-os como desejar.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Website",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Repositório Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Gerencie facilmente Jams (competições) em seus servidores Discord.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Instale em seu servidor",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Repositório Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Entre em contato",
+    "subHeadline": "Fico feliz com suas mensagens",
+    "sections": {
+      "Junte-se à minha comunidade em:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Juntar-se"
+        }
+      },
+      "Siga-me em:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Seguir"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Seguir"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Seguir"
+        }
+      },
+      "Ou entre em contato diretamente:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Enviar"
+        }
+      }
+    }
+  }
+}

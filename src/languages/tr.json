@@ -1,0 +1,113 @@
+{
+  "_name": "Türkçe",
+  "home": "Anasayfa",
+  "about": "Hakkında",
+  "tools": "Araçlar",
+  "contact": "İletişim",
+  "games": "Oyunlar",
+  "language": "Dil",
+  "discord": "Discord sunucuma katılın",
+  "ai": "Yapay Zeka tarafından oluşturulmamıştır",
+  "mainPage": {
+    "Greeting": "Merhaba, ben Joko26 👋",
+    "subGreeting": "Almanya'dan 16 yaşında bir programcı, oyunlar, web uygulamaları ve yeni şeyler öğrenmek ve fikir paylaşmak için araçlar oluşturuyorum.",
+    "button": "daha fazla gör",
+    "contactButton": "benimle iletişime geçin",
+    "cards": {
+      "discord": {
+        "head": "Discord Topluluğum",
+        "text": "Orosemo'nun resmi Discord'una hoş geldiniz, komunite merkezim. Burada diğer kişilerle bağlanabilir, güncellemelere erken erişim sağlayabilir ve aynı fikirde kişilerle bilgi alışverişinde bulunabilirsiniz. Sohbet, işbirliği ve kendi yaratılarınızı göstermeniz için topluluk kanalları da bulacaksınız. Sunucuya katılmak ve topluluğumla etkileşime girmek için herkes davetlidir!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Şimdi katılın"
+      },
+      "itch": {
+        "head": "Itch.io Sayfam",
+        "text": "Burada tüm oyunlarımı ve bunlarla ilgili her şeyi bulacaksınız: varlık paketleri, demolar, Game Jam projeleri (küçük oyun geliştirme yarışmaları (WIP 😅)) ve daha fazlası. Gelecekte yapacağım her şeyi görmek istiyorsanız beni takip edin!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Şimdi görüntüleyin"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Oyunlarım",
+    "subHeadline": "Şimdiye kadar yaptığım tüm oyunlar.",
+    "search": "oyun ara",
+    "play": "itch.io'da oyna",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Noel temalı bir zıplama oyunu, Grinch tarafından çalınan hediyeleri geri alma hedefidir. Her seviye acımasız ve zor bir meydan okumadır.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Paskalya temalı zor bir platformer oyunu. Oyuncu bir yumurtayı kontrol eder ve bir kuş yuvasına yanlışlıkla yerleştirildikten sonra doğru yuvaya geri dönmeye çalışır.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Araçlarım",
+    "subHeadline": "Şimdiye kadar yaptığım tüm araçlar.",
+    "search": "araç ara",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "QR kodları çevrimiçi olarak ücretsiz oluşturun ve istediğiniz gibi özelleştirin.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Web sitesi",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github Deposu",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Discord sunucularınızda Jam'ları (yarışmaları) kolayca yönetin.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Sunucunuza yükleyin",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github Deposu",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "İletişime geçin",
+    "subHeadline": "Mesajlarınızı bekliyorum",
+    "sections": {
+      "Topluluğuma katılın:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Katılın"
+        }
+      },
+      "Beni takip edin:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Takip et"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Takip et"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Takip et"
+        }
+      },
+      "Veya bana doğrudan ulaşın:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Gönder"
+        }
+      }
+    }
+  }
+}

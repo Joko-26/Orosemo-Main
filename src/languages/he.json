@@ -1,0 +1,113 @@
+{
+  "_name": "עברית",
+  "home": "בית",
+  "about": "אודות",
+  "tools": "כלים",
+  "contact": "יצור קשר",
+  "games": "משחקים",
+  "language": "שפה",
+  "discord": "הצטרף לשרת Discord שלי",
+  "ai": "לא נוצר על ידי AI",
+  "mainPage": {
+    "Greeting": "שלום, אני Joko26 👋",
+    "subGreeting": "מתכנת בן 16 מגרמניה שיוצר משחקים, אפליקציות אינטרנט וכלים כדי ללמוד דברים חדשים ולשתף רעיונות.",
+    "button": "ראה עוד",
+    "contactButton": "צור איתי קשר",
+    "cards": {
+      "discord": {
+        "head": "הקהילה שלי ב-Discord",
+        "text": "ברוכים הבאים ל-Discord הרשמי של Orosemo, מרכז הקהילה שלי. כאן אתה יכול להתחבר לאחרים, להשיג גישה מוקדמת לעדכונים ולהחליף ידע עם אנשים בעלי דעות דומות. תוכל גם למצוא ערוצי קהילה לשיחה, שיתוף פעולה והצגת היצירות שלך. כולם מוזמנים להצטרף לשרת ולהתקשר עם הקהילה!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "הצטרף עכשיו"
+      },
+      "itch": {
+        "head": "דף Itch.io שלי",
+        "text": "כאן תמצא את כל המשחקים שלי, בתוספת הכל הקשור אליהם: חבילות נכסים, הדגמות, פרויקטי Game Jam (תחרויות פיתוח משחקים קטנות (WIP 😅)) ועוד. עקוב אחרי אם אתה רוצה לראות הכל שאני בונה בעתיד!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "צפה עכשיו"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "המשחקים שלי",
+    "subHeadline": "כל המשחקים שיצרתי עד כה.",
+    "search": "חפש משחק",
+    "play": "שחק ב-itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "משחק קפיצות בנושא חג המולד בעל המטרה לשחזר מתנות שנגנבו על ידי Grinch. כל רמה היא אתגר חסר רחמים וקשה.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "משחק פלטפורמה קשה בנושא פסח שבו השחקן שולט בביצה ומנסה להחזור לקן הנכון לאחר שהוצב בטעות בקן של ציפור.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "הכלים שלי",
+    "subHeadline": "כל הכלים שיצרתי עד כה.",
+    "search": "חפש כלי",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "צור קודי QR באופן חינם באינטרנט והתאם אותם בדיוק כפי שאתה רוצה.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*אתר אינטרנט",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*מאגר Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "נהל בקלות את Jams (תחרויות) בשרתי Discord שלך.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*התקן בשרת שלך",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*מאגר Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "צור איתי קשר",
+    "subHeadline": "אני מחכה להודעה שלך",
+    "sections": {
+      "הצטרף לקהילה שלי ב:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "הצטרף"
+        }
+      },
+      "עקוב אחרי ב:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "עקוב"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "עקוב"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "עקוב"
+        }
+      },
+      "או צור קשר ישיר:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "שלח"
+        }
+      }
+    }
+  }
+}

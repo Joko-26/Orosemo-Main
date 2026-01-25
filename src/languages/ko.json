@@ -1,0 +1,113 @@
+{
+  "_name": "한국어",
+  "home": "홈",
+  "about": "소개",
+  "tools": "도구",
+  "contact": "연락처",
+  "games": "게임",
+  "language": "언어",
+  "discord": "내 Discord 서버에 참여",
+  "ai": "AI로 생성되지 않음",
+  "mainPage": {
+    "Greeting": "안녕하세요, 저는 Joko26입니다 👋",
+    "subGreeting": "독일 출신의 16살 프로그래머로 게임, 웹 앱, 새로운 것을 배우고 아이디어를 공유하기 위한 도구를 만들고 있습니다.",
+    "button": "더 보기",
+    "contactButton": "나와 연락하기",
+    "cards": {
+      "discord": {
+        "head": "내 Discord 커뮤니티",
+        "text": "Orosemo 공식 Discord에 오신 것을 환영합니다. 여기는 제 커뮤니티 허브입니다. 여기서 다른 사람들과 연결하고, 업데이트에 대한 조기 액세스를 얻고, 같은 생각을 가진 사람들과 지식을 교환할 수 있습니다. 또한 채팅, 협업, 자신의 작품을 보여줄 수 있는 커뮤니티 채널도 있습니다. 모두가 서버에 참여하고 커뮤니티와 상호작용하도록 초대합니다!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "지금 참여"
+      },
+      "itch": {
+        "head": "내 Itch.io 페이지",
+        "text": "여기에서 내 모든 게임과 관련된 모든 것을 찾을 수 있습니다: 에셋 팩, 데모, Game Jam 프로젝트(작은 게임 개발 경쟁(개발 중 😅)) 등. 내가 앞으로 만들 모든 것을 보고 싶다면 나를 팔로우하세요!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "지금 보기"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "내 게임",
+    "subHeadline": "지금까지 만든 모든 게임입니다.",
+    "search": "게임 검색",
+    "play": "itch.io에서 플레이",
+    "games": {
+      "Jolly Jumper": {
+        "description": "크리스마스 테마의 점프 게임입니다. 그린치에게 도난당한 선물들을 되찾는 것이 목표입니다. 각 레벨은 무자비하고 어려운 도전입니다.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "부활절 테마의 어려운 플랫포머입니다. 플레이어는 계란을 조종하여 새의 둥지에 잘못 놓여진 후 올바른 둥지로 돌아가려고 합니다.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "내 도구",
+    "subHeadline": "지금까지 만든 모든 도구입니다.",
+    "search": "도구 검색",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "온라인에서 무료로 QR 코드를 생성하고 원하는 대로 사용자 정의하세요.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*웹사이트",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github 저장소",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Discord 서버에서 Jam(경쟁)을 쉽게 관리하세요.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*서버에 설치",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github 저장소",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "연락하기",
+    "subHeadline": "당신의 메시지를 기다리고 있습니다",
+    "sections": {
+      "다음에서 내 커뮤니티에 참여:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "참여"
+        }
+      },
+      "다음에서 나를 팔로우:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "팔로우"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "팔로우"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "팔로우"
+        }
+      },
+      "또는 직접 연락:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "보내기"
+        }
+      }
+    }
+  }
+}

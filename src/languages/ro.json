@@ -1,0 +1,113 @@
+{
+  "_name": "Română",
+  "home": "Acasă",
+  "about": "Despre",
+  "tools": "Instrumente",
+  "contact": "Contact",
+  "games": "Jocuri",
+  "language": "Limbă",
+  "discord": "Alăturați-vă serverului meu Discord",
+  "ai": "Nu este generat de AI",
+  "mainPage": {
+    "Greeting": "Salut, sunt Joko26 👋",
+    "subGreeting": "Un programator de 16 ani din Germania care creează jocuri, aplicații web și instrumente pentru a învăța lucruri noi și a partaja idei.",
+    "button": "vezi mai mult",
+    "contactButton": "contactează-mă",
+    "cards": {
+      "discord": {
+        "head": "Comunitatea mea Discord",
+        "text": "Bun venit pe serverul oficial Discord Orosemo, centrul comunității mele. Aici puteți să vă conectați cu alții, să obțineți acces anticipat la actualizări și să schimbați cunoștințe cu persoane cu gândire similară. Veți găsi, de asemenea, canale comunitare pentru chat, colaborare și a vă prezenta propriile creații. Toți sunt invitați să se alăture serverului și să interacționeze cu comunitatea!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Alătură-te acum"
+      },
+      "itch": {
+        "head": "Pagina mea Itch.io",
+        "text": "Aici veți găsi toate jocurile mele, plus tot ceea ce are legătură cu ele: pachete de active, demo, proiecte Game Jam (competiții mici de dezvoltare a jocurilor (WIP 😅)) și multe altele. Urmăriți-mă dacă doriți să vedeți tot ceea ce voi construi în viitor!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Vizionează acum"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Jocurile mele",
+    "subHeadline": "Toate jocurile pe care le-am creat până acum.",
+    "search": "cauta joc",
+    "play": "joaca pe itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Un joc de sărit cu tema Crăciunului cu scopul de a recupera cadourile furate de Grinch. Fiecare nivel este o provocare crud și dificilă.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Un joc de platformă greu cu tema Paștelui în care jucătorul controlează un ou și încearcă să se întoarcă în cuibul corect după ce a fost plasat greșit în cuibul unei păsări.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Instrumentele mele",
+    "subHeadline": "Toate instrumentele pe care le-am creat până acum.",
+    "search": "cauta instrument",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Creați coduri QR online gratuit și personalizați-le cum doriți.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Site web",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Depozitul Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Gestionați cu ușurință Jams (concursuri) pe serverele Discord.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Instalați pe serverul dumneavoastră",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Depozitul Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Contactează-mă",
+    "subHeadline": "Aștept mesajul tău",
+    "sections": {
+      "Alătură-te comunității mele pe:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Alătură-te"
+        }
+      },
+      "Urmărește-mă pe:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Urmărește"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Urmărește"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Urmărește"
+        }
+      },
+      "Sau contactează-mă direct:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Trimite"
+        }
+      }
+    }
+  }
+}

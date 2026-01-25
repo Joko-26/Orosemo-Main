@@ -1,0 +1,113 @@
+{
+  "_name": "हिन्दी",
+  "home": "होम",
+  "about": "परिचय",
+  "tools": "उपकरण",
+  "contact": "संपर्क",
+  "games": "खेल",
+  "language": "भाषा",
+  "discord": "मेरे डिस्कॉर्ड सर्वर में शामिल हों",
+  "ai": "एआई द्वारा उत्पन्न नहीं",
+  "mainPage": {
+    "Greeting": "नमस्ते, मैं Joko26 हूँ 👋",
+    "subGreeting": "जर्मनी के एक 16 वर्षीय प्रोग्रामर जो गेम, वेब ऐप्स और नई चीजें सीखने के लिए उपकरण बनाता हूँ।",
+    "button": "और देखें",
+    "contactButton": "मुझसे संपर्क करें",
+    "cards": {
+      "discord": {
+        "head": "मेरा डिस्कॉर्ड समुदाय",
+        "text": "Orosemo के आधिकारिक डिस्कॉर्ड में आपका स्वागत है, मेरा समुदाय केंद्र। यहाँ आप दूसरों से जुड़ सकते हैं, अपडेट के लिए प्रारंभिक पहुँच प्राप्त कर सकते हैं और समान विचारधारा वाले लोगों के साथ ज्ञान साझा कर सकते हैं। आप चैटिंग, सहयोग और अपनी रचनाओं को प्रदर्शित करने के लिए समुदाय चैनलों भी पाएंगे। सभी को सर्वर में शामिल होने और समुदाय के साथ बातचीत करने के लिए आमंत्रित किया जाता है!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "अभी शामिल हों"
+      },
+      "itch": {
+        "head": "मेरा Itch.io पेज",
+        "text": "यहाँ आप मेरे सभी गेम और उनसे संबंधित सब कुछ पाएंगे: एसेट पैकेज, डेमो, Game Jam प्रोजेक्ट्स (छोटे गेम विकास प्रतियोगिताएँ (WIP 😅)) और बहुत कुछ। मुझे फॉलो करें यदि आप भविष्य में मेरे द्वारा बनाई गई सब कुछ देखना चाहते हैं!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "अभी देखें"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "मेरे गेम",
+    "subHeadline": "मेरे द्वारा अब तक बनाए गए सभी गेम।",
+    "search": "गेम खोजें",
+    "play": "itch.io पर खेलें",
+    "games": {
+      "Jolly Jumper": {
+        "description": "क्रिसमस थीम्स वाला एक जम्प गेम जिसका लक्ष्य ग्रिंच द्वारा चोरी किए गए उपहारों को वापस लाना है। प्रत्येक स्तर एक निर्दयी और कठिन चुनौती है।",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "एक कठिन प्लेटफॉर्मर गेम जिसमें खिलाड़ी एक अंडे को नियंत्रित करता है और एक पक्षी के घोंसले में गलत जगह रखे जाने के बाद सही घोंसले में वापस आने की कोशिश करता है।",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "मेरे उपकरण",
+    "subHeadline": "मेरे द्वारा अब तक बनाए गए सभी उपकरण।",
+    "search": "उपकरण खोजें",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "ऑनलाइन मुफ्त में QR कोड बनाएँ और उन्हें अपनी पसंद के अनुसार कस्टमाइज करें।",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*वेबसाइट",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github रिपॉजिटरी",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "अपने Discord सर्वर पर Jams (प्रतियोगिताओं) को आसानी से प्रबंधित करें।",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*अपने सर्वर पर इंस्टॉल करें",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github रिपॉजिटरी",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "मुझसे संपर्क करें",
+    "subHeadline": "मैं आपके संदेश का इंतजार कर रहा हूँ",
+    "sections": {
+      "मेरे समुदाय में शामिल हों:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "शामिल हों"
+        }
+      },
+      "मुझे फॉलो करें:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "फॉलो करें"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "फॉलो करें"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "फॉलो करें"
+        }
+      },
+      "या सीधे संपर्क करें:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "भेजें"
+        }
+      }
+    }
+  }
+}

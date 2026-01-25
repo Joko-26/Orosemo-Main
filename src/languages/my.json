@@ -1,0 +1,113 @@
+{
+  "_name": "မြန်မာ",
+  "home": "ပင်မ",
+  "about": "အကြောင်း",
+  "tools": "ကိရိယာများ",
+  "contact": "ဆက်သွယ်မှု",
+  "games": "ဂेме",
+  "language": "ဘာသာစကား",
+  "discord": "ကျွန်ုပ်၏ Discord ဆာဗာသို့ 참여",
+  "ai": "AI မှ ထုတ်လုပ်ခြင်း မဟုတ်ပါ",
+  "mainPage": {
+    "Greeting": "အင်္ဂလိပ်, ကျွန်ုပ်သည် Joko26 ဖြစ်သည် 👋",
+    "subGreeting": "ဂျာမနီမှ 16 နှစ်သားကျား ပရိုဂရမ်မာ ဂेમ, ဝက် အက်ပ်များ နှင့် အင်္ဂလိပ်လေ့ကျင့်မှုအတွက် ကိရိယာများ ဖန်တီးသည်။",
+    "button": "ပိုမိုမြင်ရှုကြည့်ရှု",
+    "contactButton": "ကျွန်ုပ်ကို ဆက်သွယ်",
+    "cards": {
+      "discord": {
+        "head": "ကျွန်ုပ်၏ Discord အသိုင်းအဝိုင်း",
+        "text": "Orosemo အရေးအသားတင် Discord သို့ ကြိုးဆိုးပြီး၊ ကျွန်ုပ်၏ အသိုင်းအဝိုင်း အခြေစိုက်စခန်း။ ဤတွင် သင်သည် အခြား တစ်ခြား ပုဂ္ဂိုလ်များနှင့် ဆက်နွယ်ပြီး၊ အဆင့်မြှင့်တင်မှုများအတွက် အစောစီးအခွင့်အလမ်း ရယူပြီး၊ အလားတူ စိတ်ကူးများရှိသူများနှင့် အသိအမြင်များ လဲလှယ်နိုင်သည်။ သင်သည် အစည်းအဝိုင်း လုပ်ငန်းများအတွက် ချ်ယတ်၊ ပူးပေါင်းလုပ်ဆောင်ရန် နှင့် သင်၏ အဘိုးအမွေများကို ပြသရန် လိုအပ်သည့် လုပ်ငန်းများကိုလည်း ရှာတွေ့နိုင်သည်။ လူအားလုံးသည် ဆာဗာအဖြစ်သို့ ခေါ်မည်ဖြစ်ပြီး အသိုင်းအဝိုင်းအစည်းအရုံးများနှင့် မြန်မာစာထည့်သွင်းရန် ဖိတ်ခေါ်ခြင်းခံရသည်။",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "ယခုခေါ်ဆိုပါ"
+      },
+      "itch": {
+        "head": "ကျွန်ုပ်၏ Itch.io စာမျက်နှာ",
+        "text": "ဤတွင် သင်သည် ကျွန်ုပ်၏ ဂेме အားလုံးကို၊ အပြင် အဆိုပါအရာများနှင့် ပတ်သက်သည့် အရာအားလုံးကို တွေ့ရှိနိုင်သည်- ပစ္စည်းပြည့်ဝမှု၊ အရုပ်ပြ၊ Game Jam အပ်ချမှုများ (သေးငယ်သောဂားမ် အလုပ်လုပ်မှုသည့် အပ်ချမှုများ (WIP 😅)) နှင့် အလွန်များစွာ။ ကျွန်ုပ်ကို စောင့်ကြည့်ပါ၊ မကြေးမုံရွာ၏ အနာဂတ်တွင် ကျွန်ုပ်မည်သည့်အရာများ ဖန်တီးမည်ကို သင် မြင်လိုလျှင်။",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "ယခုမြင်ကြည့်ပါ"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "ကျွန်ုပ်၏ ဂేမ်များ",
+    "subHeadline": "ယခုအထိ ကျွန်ုပ်မည်သည့် ဂేမ်များ ဖန်တီးခဲ့သည်။",
+    "search": "ဂေမ်ရှာ",
+    "play": "itch.io တွင် ကစားပါ",
+    "games": {
+      "Jolly Jumper": {
+        "description": "ခရစ်စမတ္သီ နှင့်ကျ်လုံးဝ့ခ အရာများကုန်ခြင်းအ့စရာအရ ယခုခုးသည့် ခုံဆစ်ခြင်း။ စာမျက်နှာတစ်ခုစီသည် အဘယ်ကြီးမားသောကြီးမားသော စီမံခန့်ခွဲမှုမဟုတ်ပါ။",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "အီစတာ သီးတွင်း နှင့် အခိုင်အလုံးအပြည့်ပီကံ့သည့် ခုံဆစ်ခြင်း။ ပွဲဝင်သည် အူတစ်ခုကိုထိန်းချုပ်ပြီး ငှက်အူတစ်ခုတွင် မှားမြားယူထားပြီးနောက် မှန်ကန်သောအူသို့ ပြန်လည်ရောက်ရှိရန်အား ကြိုးစားသည်။",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "ကျွန်ုပ်၏ ကိရိယာများ",
+    "subHeadline": "ယခုအထိ ကျွန်ုပ် ဖန်တီးခဲ့သည့် ကိရိယာများ။",
+    "search": "ကိရိယာရှာ",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "အွန်လိုင်း နှင့်အတူ QR သတ်မှတ်အားအခမဲ့ ဖန်တီးပြီး သင့်အလိုအလျောက် လိုက်ခြင်း။",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*ဝက်ဆိုက်",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github အလှည့်မြို့",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "သင်၏ Discord ဆာဗာများပေါ် Jam (အပ်ချမှုများ) အလွယ်တကူ စီမံခန့်ခွဲပါ။",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*သင်၏ ဆာဗာအပေါ် တည်ဆောက်",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github အလှည့်မြို့",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "ကျွန်ုပ်ကို ဆက်သွယ်",
+    "subHeadline": "အင်္ဂလိပ် သင့်လျှောက်လွှာများ စောင့်မျှော်ရှိသည်",
+    "sections": {
+      "ကျွန်ုပ်၏ အသိုင်းအဝိုင်းတွင် ခေါ်ဆိုပါ:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "ခေါ်ဆိုပါ"
+        }
+      },
+      "ကျွန်ုပ်အပေါ် စောင့်ကြည့်:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "စောင့်"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "စောင့်"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "စောင့်"
+        }
+      },
+      "သို့မဟုတ် ကျွန်ုပ်ကို ကိုယ်တိုင်ဆက်သွယ်ပါ:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "ပို့ဆောင်"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_name": "Čeština",
+  "home": "Domů",
+  "about": "O mně",
+  "tools": "Nástroje",
+  "contact": "Kontakt",
+  "games": "Hry",
+  "language": "Jazyk",
+  "discord": "Připojte se k mému serveru Discord",
+  "ai": "Nevygenerováno umělou inteligencí",
+  "mainPage": {
+    "Greeting": "Ahoj, jsem Joko26 👋",
+    "subGreeting": "16letý programátor z Německa, který vytváří hry, webové aplikace a nástroje pro učení se nových věcí a sdílení nápadů.",
+    "button": "více informací",
+    "contactButton": "kontaktujte mě",
+    "cards": {
+      "discord": {
+        "head": "Moje komunita Discord",
+        "text": "Vítejte na oficiálním Discord serveru Orosemo, centru mé komunity. Zde se můžete připojit k ostatním, získat včasný přístup k aktualizacím a vyměňovat si znalosti se stejně smýšlejícími lidmi. Najdete také kanály komunity pro chat, spolupráci a prezentaci svých vlastních tvorů. Všichni jsou vítáni aby se připojili k serveru a interagovali s komunitou!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Připojit se nyní"
+      },
+      "itch": {
+        "head": "Moje stránka Itch.io",
+        "text": "Zde najdete všechny moje hry plus všechno, co s nimi souvisí: balíčky aktiv, demo, projekty Game Jam (malé soutěže o vývoji her (WIP 😅)) a další. Sledujte mě, pokud chcete vidět vše, co v budoucnu vytvořím!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Zobraziit"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Moje hry",
+    "subHeadline": "Všechny hry, které jsem doposud vytvořil.",
+    "search": "hledat hru",
+    "play": "hrát na itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Vánoční skákací hra s cílem získat zpět dárky ukradené Grinchem. Každá úroveň je bezohledná a obtížná výzva.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Obtížná hra plošiny s velikonoční tématikou, ve které hráč ovládá vejce a snaží se vrátit do správného hnízda poté, co byl omylem umístěn do ptačího hnízda.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Moje nástroje",
+    "subHeadline": "Všechny nástroje, které jsem doposud vytvořil.",
+    "search": "hledat nástroj",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Vytvářejte QR kódy online zdarma a přizpůsobte si je podle svého přání.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Web",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Repozitář Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Snadno spravujte Jamy (soutěže) na svých serverech Discord.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Nainstalujte na svůj server",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Repozitář Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Kontaktujte mě",
+    "subHeadline": "Čekám na vaši zprávu",
+    "sections": {
+      "Připojte se k mé komunitě na:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Připojit se"
+        }
+      },
+      "Sledujte mě na:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Sledovat"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Sledovat"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Sledovat"
+        }
+      },
+      "Nebo se kontaktujte přímo:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Odeslat"
+        }
+      }
+    }
+  }
+}

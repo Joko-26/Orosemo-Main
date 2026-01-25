@@ -1,0 +1,113 @@
+{
+  "_name": "Íslenska",
+  "home": "Heim",
+  "about": "Um mig",
+  "tools": "Verkfæri",
+  "contact": "Samband",
+  "games": "Leikir",
+  "language": "Tungumál",
+  "discord": "Gangnast við Discord þjón minn",
+  "ai": "Ekki búið til af AI",
+  "mainPage": {
+    "Greeting": "Halló, ég er Joko26 👋",
+    "subGreeting": "16 ára forritari frá Þýskalandi sem búi til leiki, vefforriti og verkfæri til að læra ný hluti og deila hugmyndum.",
+    "button": "sjá meira",
+    "contactButton": "hafðu samband við mig",
+    "cards": {
+      "discord": {
+        "head": "Discord-félagið mitt",
+        "text": "Velkominn á opinbera Discord Orosemo, samfélagskrið mitt. Hér geturðu tengst öðrum, fengið snemma aðgang að uppfærslum og skipt þekkingu með sams hugi fólki. Þú munt einnig finna samfélagsrásir fyrir spjall, samstarf og framboð á eigin sköpun. Allir eru hvattir til að ganga til liðs við þjóninn og eiga samskipti við samfélagið!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Gangnast núna"
+      },
+      "itch": {
+        "head": "Itch.io síðan mín",
+        "text": "Hér muntu finna alla leiki mína, auk alls sem tengist þeim: eignarbækur, kynningar, Game Jam verkefni (lítil leikja þróun samkeppni (WIP 😅)) og margt fleira. Fylgstu mér ef þú vilt sjá allt sem ég mun byggja í framtíðinni!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Skoðaðu núna"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Leikirnar mínir",
+    "subHeadline": "Allir leikirnar sem ég hef búið til hingað til.",
+    "search": "leita að leik",
+    "play": "leika á itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Jólaleikur með markmiðinu að endurheimta gjafir sem Grinch stal. Hvert stig er ótapreitinn og erfiðir áskorun.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Erfiðleiki páskaleikur þar sem leikmaður stjórnar eggi og reynir að fara aftur til rétta hreiðurs eftir að hafa verið ranglega settur í fuglahreið.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Verkfærin mín",
+    "subHeadline": "Öll verkfæri sem ég hef búið til hingað til.",
+    "search": "leita að verkfæri",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Búðu til QR-kóða á netinu ókeypis og sérsníddu þá eins og þú vilt.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Vefsíða",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github geymsla",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Stýrðu Jams (samkeppnum) á Discord-þjónum þínum á auðveldan hátt.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Settu upp á þjón þinn",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github geymsla",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Hafðu samband við mig",
+    "subHeadline": "Ég bið þinni skilaboða",
+    "sections": {
+      "Gangnast við félagið mitt á:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Gangnast"
+        }
+      },
+      "Fylgstu mér á:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Fylgstu"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Fylgstu"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Fylgstu"
+        }
+      },
+      "Eða hafðu beint samband:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Senda"
+        }
+      }
+    }
+  }
+}

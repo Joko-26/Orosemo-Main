@@ -17,11 +17,11 @@ export function LanguageSelect() {
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[150px] p-0">
-        <Command>
+      <PopoverContent className="w-[150px] p-0 max-h-64 overflow-hidden">
+        <Command className="max-h-64">
           <CommandInput placeholder={t.language} />
           <CommandEmpty>No language found.</CommandEmpty>
-          <CommandGroup>
+          <CommandGroup className="max-h-52 overflow-y-auto">
             {availableLangs.map(l => (
               <CommandItem
                 className="cursor-pointer"

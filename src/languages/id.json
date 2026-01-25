@@ -1,0 +1,113 @@
+{
+  "_name": "Bahasa Indonesia",
+  "home": "Beranda",
+  "about": "Tentang",
+  "tools": "Alat",
+  "contact": "Kontak",
+  "games": "Game",
+  "language": "Bahasa",
+  "discord": "Bergabunglah dengan server Discord saya",
+  "ai": "Tidak dihasilkan oleh AI",
+  "mainPage": {
+    "Greeting": "Halo, aku Joko26 👋",
+    "subGreeting": "Seorang programmer berusia 16 tahun dari Jerman yang membuat game, aplikasi web, dan alat untuk belajar hal-hal baru dan berbagi ide.",
+    "button": "lihat selengkapnya",
+    "contactButton": "hubungi aku",
+    "cards": {
+      "discord": {
+        "head": "Komunitas Discord saya",
+        "text": "Selamat datang di Discord resmi Orosemo, pusat komunitas saya. Di sini Anda dapat terhubung dengan orang lain, mendapatkan akses awal ke pembaruan, dan berbagi pengetahuan dengan orang-orang yang berpikiran sama. Anda juga akan menemukan saluran komunitas untuk mengobrol, berkolaborasi, dan menampilkan kreasi Anda sendiri. Semua orang diundang untuk bergabung dengan server dan berinteraksi dengan komunitas!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Bergabung sekarang"
+      },
+      "itch": {
+        "head": "Halaman Itch.io saya",
+        "text": "Di sini Anda akan menemukan semua game saya, ditambah semua yang terkait dengan mereka: paket aset, demo, proyek Game Jam (kompetisi pengembangan game kecil (WIP 😅)) dan lainnya. Ikuti saya jika Anda ingin melihat semua yang akan saya bangun di masa depan!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Lihat sekarang"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Game saya",
+    "subHeadline": "Semua game yang telah saya buat sejauh ini.",
+    "search": "cari game",
+    "play": "mainkan di itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Game loncat bertema Natal dengan tujuan memulihkan hadiah yang dicuri oleh Grinch. Setiap level adalah tantangan yang tanpa ampun dan sulit.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Platform sulit bertema Paskah di mana pemain mengontrol telur dan mencoba kembali ke sarang yang benar setelah ditempatkan dengan salah di sarang burung.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Alat saya",
+    "subHeadline": "Semua alat yang telah saya buat sejauh ini.",
+    "search": "cari alat",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Buat kode QR online secara gratis dan sesuaikan sesuai keinginan Anda.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Situs web",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Repositori Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Kelola Jam (kompetisi) di server Discord Anda dengan mudah.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Instal di server Anda",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Repositori Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Hubungi saya",
+    "subHeadline": "Saya menunggu pesan Anda",
+    "sections": {
+      "Bergabunglah dengan komunitas saya di:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Bergabung"
+        }
+      },
+      "Ikuti saya di:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Ikuti"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Ikuti"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Ikuti"
+        }
+      },
+      "Atau hubungi saya langsung:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Kirim"
+        }
+      }
+    }
+  }
+}

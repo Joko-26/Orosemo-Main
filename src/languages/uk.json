@@ -1,0 +1,113 @@
+{
+  "_name": "Українська",
+  "home": "Головна",
+  "about": "Про мене",
+  "tools": "Інструменти",
+  "contact": "Контакти",
+  "games": "Ігри",
+  "language": "Мова",
+  "discord": "Приєднайтеся до мого сервера Discord",
+  "ai": "Не створено штучним інтелектом",
+  "mainPage": {
+    "Greeting": "Привіт, я Joko26 👋",
+    "subGreeting": "16-річний програміст з Німеччини, який створює ігри, веб-додатки та інструменти для навчання нових речей та обміну ідеями.",
+    "button": "дивитися більше",
+    "contactButton": "зв'яжіться зі мною",
+    "cards": {
+      "discord": {
+        "head": "Моя спільнота Discord",
+        "text": "Ласкаво просимо на офіційний Discord Orosemo, мій центр спільноти. Тут ви можете спілкуватися з іншими, отримати ранній доступ до оновлень та обмінюватися знаннями з однодумцями. Ви також знайдете канали спільноти для спілкування, співпраці та демонстрації своїх творів. Всі запрошені приєднатися до сервера та взаємодіяти зі спільнотою!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Приєднатися зараз"
+      },
+      "itch": {
+        "head": "Моя сторінка Itch.io",
+        "text": "Тут ви знайдете всі мої ігри та все, що з ними пов'язано: пакети активів, демонстрації, проекти Game Jam (невеликі змагання розробників ігор (WIP 😅)) та багато іншого. Підпишіться на мене, якщо хочете побачити все, що я буду створювати в майбутньому!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Переглянути зараз"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Мої ігри",
+    "subHeadline": "Усі ігри, які я створив до цього часу.",
+    "search": "пошук гри",
+    "play": "грати на itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Святкова гра-стрибунок зі метою повернення подарунків, украденими Гринчем. Кожен рівень - це безжалісний та складний виклик.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Складна платформа на тему Пасхи, в якій гравець управляє яйцем і намагається повернутися до правильного гнізда після помилкового розміщення у гнізді птиці.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Мої інструменти",
+    "subHeadline": "Усі інструменти, які я створив до цього часу.",
+    "search": "пошук інструменту",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Створюйте QR-коди онлайн безкоштовно та налаштовуйте їх на своє бажання.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Веб-сайт",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Репозиторій Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Легко керуйте Jam (змаганнями) на своїх серверах Discord.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Встановіть на свій сервер",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Репозиторій Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Зв'яжіться зі мною",
+    "subHeadline": "Чекаю на ваші повідомлення",
+    "sections": {
+      "Приєднайтеся до моєї спільноти на:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Приєднатися"
+        }
+      },
+      "Підпишіться на мене:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Підписатися"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Підписатися"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Підписатися"
+        }
+      },
+      "Або зв'яжіться зі мною безпосередньо:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Відправити"
+        }
+      }
+    }
+  }
+}

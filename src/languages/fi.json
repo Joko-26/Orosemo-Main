@@ -1,0 +1,113 @@
+{
+  "_name": "Suomi",
+  "home": "Koti",
+  "about": "Tietoa minusta",
+  "tools": "Työkalut",
+  "contact": "Ota yhteyttä",
+  "games": "Pelit",
+  "language": "Kieli",
+  "discord": "Liity Discord-palvelimeelleni",
+  "ai": "Ei luotu tekoälyllä",
+  "mainPage": {
+    "Greeting": "Hei, olen Joko26 👋",
+    "subGreeting": "16-vuotias ohjelmoija Saksasta, joka luo pelejä, verkkosovelluksia ja työkaluja oppiakseni uusia asioita ja jakaakseni ideoita.",
+    "button": "näytä lisää",
+    "contactButton": "ota yhteyttä",
+    "cards": {
+      "discord": {
+        "head": "Minun Discord-yhteisö",
+        "text": "Tervetuloa Orosemon viralliselle Discord-palvelimelle, minun yhteisön keskukselle. Täällä voit muodostaa yhteyksiä muihin, saada varhaisen pääsyn päivityksiin ja vaihtaa tietoa samanmielisten kanssa. Löydät myös yhteisökanavia keskustelulle, yhteistyölle ja omien luomustesi esittelylle. Kaikki ovat tervetulleita liittymään palvelimelle ja vuorovaikutukseen yhteisön kanssa!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Liity nyt"
+      },
+      "itch": {
+        "head": "Minun Itch.io-sivu",
+        "text": "Täällä löydät kaikki pelini sekä kaiken niihin liittyvän: omaisuuspaketteja, demoja, Game Jam -projekteja (pieniä pelikehityskilpailuja (WIP 😅)) ja paljon muuta. Seuraa minua, jos haluat nähdä kaiken, mitä rakennan tulevaisuudessa!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Näytä nyt"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Minun pelit",
+    "subHeadline": "Kaikki pelit, jotka olen tehnyt toistaiseksi.",
+    "search": "etsi peliä",
+    "play": "pelaa itch.io:ssa",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Jouluteemainen hyppelypeli, jonka tavoitteena on palauttaa Grinch-varasta varastettuja lahjoja. Jokainen taso on armaton ja vaikea haaste.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Vaikea pääsiäisteemainen platformer-peli, jossa pelaaja ohjaa munaa ja yrittää palata oikeaan pesään sen jälkeen, kun se on sijoitettu vahingossa lintujen pesään.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Minun työkalut",
+    "subHeadline": "Kaikki työkalut, jotka olen tehnyt toistaiseksi.",
+    "search": "etsi työkalua",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Luo QR-koodeja verkossa ilmaiseksi ja mukauta ne haluamallasi tavalla.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Verkkosivusto",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github-varasto",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Hallitse Jameja (kilpailuja) Discord-palvelimilläsi helposti.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Asenna palvelimeellesi",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github-varasto",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Ota minuun yhteyttä",
+    "subHeadline": "Odotan viestiäsi",
+    "sections": {
+      "Liity yhteisöhön:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Liity"
+        }
+      },
+      "Seuraa minua:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Seuraa"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Seuraa"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Seuraa"
+        }
+      },
+      "Tai ota minuun suoraan yhteyttä:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Lähetä"
+        }
+      }
+    }
+  }
+}

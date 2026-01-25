@@ -1,0 +1,113 @@
+{
+  "_name": "ລາວ",
+  "home": "ໜ້າຫຼັກ",
+  "about": "ກ່ຽວກັບ",
+  "tools": "ເຄື່ອງມື",
+  "contact": "ຕິດຕໍ່",
+  "games": "ເກມ",
+  "language": "ພາສາ",
+  "discord": "ເຂົ້າຮ່ວມເຊີເວີ Discord ຂອງຂ້ອຍ",
+  "ai": "ບໍ່ໄດ້ສ້າງໂດຍ AI",
+  "mainPage": {
+    "Greeting": "ສະ​ບາຍ​ດີ, ຂ້ອຍ​ກໍາ​ລັງ Joko26 👋",
+    "subGreeting": "ນັກ​ຂຽນ​ໂປ​ລ​ແກ​ລມ​ອາ​ຍຸ 16 ປີ​ຈາກ​ເຢ​ອະ​ມັນ​ທີ່​ສ້າງ​ເກມ, ນຳ​ໃຊ້​ເວບ​ແລະ​ເຄື່ອງ​ມື​ເພື່ອ​ຮຽນ​ຮູ້​ຢ່າງ​ໃຫມ່​ຕ່າງໆ​ແລະ​ແບ່ງ​ປັນ​ວິ​ຄາ​ລ.",
+    "button": "ເບິ່ງ​ຕື່ມ",
+    "contactButton": "ຕິດ​ຕໍ່​ຂ້ອຍ",
+    "cards": {
+      "discord": {
+        "head": "ຊຸມ​ຊົນ Discord ຂອງ​ຂ້ອຍ",
+        "text": "ຍິນ​ດີ​ຕົ້ນ​ຮັບ​ໄປ​ຍັງ​ Discord ທາງ​ການ​ຂອງ Orosemo, ສູນ​ກາງ​ຊຸມ​ຊົນ​ຂອງ​ຂ້ອຍ. ທີ່ນີ້ທ່ານ​ສາ​ມາດ​ເຊື່ອມ​ຕໍ່​ກັບ​ຄົນ​ອື່ນ, ເອົາ​ເຂົ້າ​ຖືກ​ກ່ອນ​ກຳ​ນົດ​ແລະ​ແບ່ງ​ປັນ​ຄວາມ​ຮູ້​ກັບ​ຜູ້​ຄົນ​ທີ່​ຄິດ​ເຫຼືອ​ນ​ກັນ. ທ່ານ​ຈະ​ໄດ້​ເບິ່ງ​ລາຍ​ສາຍ​ຊຸມ​ຊົນ​ສໍາ​ລັບ​ການ​ສົນ​ທະ​ນາ, ການ​ຮ່ວມ​ມື​ແລະ​ການ​ສະ​ແດງ​ສິ່ງ​ສ້າງ​ສັນ​ຂອງ​ທ່ານ​ເອງ. ທຸກ​ຄົນ​ໄດ້​ຮັບ​ຄວາມ​ອາ​ກາດ​ຮີ​ດ​ສາ​ມາດ​ເຂົ້າ​ຮ່ວມ​ເຊີ​ວ​ເວີ​ແລະ​ພົວ​ພັນ​ກັບ​ຊຸມ​ຊົນ!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "ເຂົ້າ​ຮ່ວມ​ທີ່​ນີ້​ວາ"
+      },
+      "itch": {
+        "head": "ໜ້າ Itch.io ຂອງ​ຂ້ອຍ",
+        "text": "ທີ່ນີ້​ທ່ານ​ຈະ​ໄດ້​ເບິ່ງ​ເກມ​ທັງ​ຫມົດ​ຂອງ​ຂ້ອຍ, ບວກ​ກັບ​ທຸກ​ສິ່ງ​ທີ່​ກ່ຽວ​ຂ້ອງ​ກັບ: ກະ​ເປົາ​ຊັບ​ສິນ, ບົດ​ປະ​ສົບ​ການ, ໂຄງ​ການ Game Jam (ການ​ແຂ່ງ​ຂັນ​ການ​ພັດ​ທະ​ນາ​ເກມ​ນ້ອຍ​ໆ (WIP 😅)) ແລະ​ອື່ນ​ໆ. ຕິດ​ຕາມ​ຂ້ອຍ​ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ຕ້ອງ​ການ​ເບິ່ງ​ທຸກ​ສິ່ງ​ທີ່​ຂ້ອຍ​ຈະ​ສ້າງ​ໃນ​ອະ​ນາ​ຄົດ!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "ເບິ່ງ​ວາ"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "ເກມ​ຂອງ​ຂ້ອຍ",
+    "subHeadline": "ເກມ​ທັງ​ຫມົດ​ທີ່​ຂ້ອຍ​ໄດ້​ສ້າງ​ມາ​ແລ້ວ.",
+    "search": "ຊອກ​ຫາ​ເກມ",
+    "play": "ຫຼິ້ນ​ໃນ itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "ເກມ​ກະ​ໂດດ​ທີ່​ມີ​ຮູບ​ແບບ​ຄ​ຣ​ິ​ສ​ມາ​ສ​ທີ່​ມີ​ລົ​ວ​ພະ​ຍາ​ຍາ​ມ​ຟື້ນ​ຟື​ຫົ​ວ​ຕ​ັ​ວ​ໄ​ຕ​ທີ່​ຖືກ​ລັກ​ໂດຍ Grinch. ແຕ່​ລະ​ຊັ້ນ​ແມ່ນ​ການ​ທ້າ​ທາຍ​ທີ່​ບໍ່​ມີ​ເມດ​ຕາ​ແລະ​ຍາກ​ແກ່.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "ເກມ​ຜ້າ​ປົກ​ທີ່​ຫຍຸ້ງ​ຍາກ​ຂອງ Easter ທີ່​ຜູ້​ຫຼິ້ນ​ຄວບ​ຄຸມ​ໄຂ່​ແລະ​ພະ​ຍາ​ຍາ​ມ​ກັບ​ໄປ​ທີ່​ບ້ານ​ທີ່​ຖືກ​ຕ້ອງ​ຫຼັງ​ຈາກ​ວາງ​ໄຂ່ຜິດ​ຢູ່​ໃນ​ບ້ານ​ເນື້ອ.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "ເຄື່ອງ​ມື​ຂອງ​ຂ້ອຍ",
+    "subHeadline": "ເຄື່ອງ​ມື​ທັງ​ຫມົດ​ທີ່​ຂ້ອຍ​ໄດ້​ສ້າງ​ມາ​ແລ້ວ.",
+    "search": "ຊອກ​ຫາ​ເຄື່ອງ​ມື",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "ສ້າງ QR ລະ​ຫັດ​ອອນ​ໄລ​ນ​໌ຟຣີ​ແລະ​ປັບ​ແຕ່ງ​ຕາມ​ທີ່​ທ່ານ​ຕ້ອງ​ການ.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*ເວບ​ໄຊ​ຕ",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github ອະ​ທຸ​ລະ",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "ຈັດ​ການ Jams (ການ​ແຂ່ງ​ຂັນ) ໃນ​ເຊີ​ວ​ເວີ Discord ຂອງ​ທ່ານ​ໄດ້​ງ່າຍ.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*ຕິ​ດ​ຕັ້ງ​ໄປ​ເຊີ​ວ​ເວີ​ຂອງ​ທ່ານ",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github ອະ​ທຸ​ລະ",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "ຕິດ​ຕໍ່​ຂ້ອຍ",
+    "subHeadline": "ຂ້ອຍ​ຮໍ​າກັບ​ຂໍ້​ຄວາມ​ຂອງ​ທ່ານ",
+    "sections": {
+      "ເຂົ້າ​ຮ່ວມ​ຊຸມ​ຊົນ​ຂອງ​ຂ້ອຍ:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "ເຂົ້າ​ຮ່ວມ"
+        }
+      },
+      "ຕິດ​ຕາມ​ຂ້ອຍ:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "ຕິດ​ຕາມ"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "ຕິດ​ຕາມ"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "ຕິດ​ຕາມ"
+        }
+      },
+      "ຫຼື​ຕິດ​ຕໍ່​ຂ້ອຍ​ໂດຍ​ກົງ:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "ສົ່ງ"
+        }
+      }
+    }
+  }
+}

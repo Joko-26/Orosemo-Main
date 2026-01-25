@@ -1,0 +1,113 @@
+{
+  "_name": "中文",
+  "home": "首页",
+  "about": "关于",
+  "tools": "工具",
+  "contact": "联系",
+  "games": "游戏",
+  "language": "语言",
+  "discord": "加入我的Discord服务器",
+  "ai": "不是由AI生成",
+  "mainPage": {
+    "Greeting": "你好，我是Joko26 👋",
+    "subGreeting": "一位来自德国的16岁程序员，创作游戏、网络应用和工具，用来学习新东西和分享想法。",
+    "button": "查看更多",
+    "contactButton": "与我联系",
+    "cards": {
+      "discord": {
+        "head": "我的Discord社区",
+        "text": "欢迎来到Orosemo官方Discord，我的社区枢纽。在这里，你可以与他人联系，获得更新的提前访问权限，并与志同道合的人交换知识。你还会找到用于聊天、协作和展示自己创作的社区频道。欢迎所有人加入服务器并与社区互动！",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "现在加入"
+      },
+      "itch": {
+        "head": "我的Itch.io页面",
+        "text": "在这里你会找到我的所有游戏，以及与它们相关的一切：资源包、演示、Game Jam项目（小型游戏开发竞赛（开发中😅））等等。如果你想看到我未来建造的一切，就跟随我吧！",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "现在查看"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "我的游戏",
+    "subHeadline": "到目前为止我创作的所有游戏。",
+    "search": "搜索游戏",
+    "play": "在itch.io上玩",
+    "games": {
+      "Jolly Jumper": {
+        "description": "一个圣诞主题的跳跃游戏，目标是夺回被格林奇偷走的礼物。每个关卡都是一个残酷而困难的挑战。",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "一个复活节主题的困难平台游戏，玩家控制一个鸡蛋，试图在被错误地放在鸟巢中后回到正确的巢中。",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "我的工具",
+    "subHeadline": "到目前为止我创作的所有工具。",
+    "search": "搜索工具",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "免费在线创建二维码，并根据您的喜好进行自定义。",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*网站",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github仓库",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "轻松管理Discord服务器上的Jam（竞赛）。",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*在你的服务器上安装",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github仓库",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "联系我",
+    "subHeadline": "我期待你的消息",
+    "sections": {
+      "在以下平台加入我的社区：": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "加入"
+        }
+      },
+      "在以下平台关注我：": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "关注"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "关注"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "关注"
+        }
+      },
+      "或直接与我联系：": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "发送"
+        }
+      }
+    }
+  }
+}

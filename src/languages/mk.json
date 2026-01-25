@@ -1,0 +1,113 @@
+{
+  "_name": "Македонски",
+  "home": "Почетна",
+  "about": "За мене",
+  "tools": "Алатки",
+  "contact": "Контакт",
+  "games": "Игри",
+  "language": "Јазик",
+  "discord": "Придружи се на мојот Discord сервер",
+  "ai": "Не е создадено од АИ",
+  "mainPage": {
+    "Greeting": "Здраво, јас сум Joko26 👋",
+    "subGreeting": "16-годишен програмер од Германија кој создава игри, веб апликации и алатки за да научам нови неща и да делам идеи.",
+    "button": "Видете повеќе",
+    "contactButton": "Контактирајте ме",
+    "cards": {
+      "discord": {
+        "head": "Мојата Discord заедница",
+        "text": "Добредошли на официјалниот Discord на Orosemo, центар на мојата заедница. Овде можете да се поврзете со други, да добиете ран пристап до ажурирања и да поделите знаење со слично размислување. Исто така ќе најдете канали на заедницата за разговор, соработка и пријава на вашите сопствени креативни творби. Сите се поканети да се придружат на серверот и да комуницираат со заедницата!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Придружи се сега"
+      },
+      "itch": {
+        "head": "Моја страна на Itch.io",
+        "text": "Овде ќе ги најдете сите мои игри, плус сè што е поврзано со нив: пакети за средства, демонстрации, Game Jam проекти (мали натпревари за развој на игри (WIP 😅)) и многу повеќе. Следи ме ако сакаш да видиш сè што ќе изградам во иднина!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Видете сега"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Мои игри",
+    "subHeadline": "Сите игри што го создадов до сега.",
+    "search": "Пребарувај игри",
+    "play": "Играј на itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Игра за скокање со божична тема со цел да се повратат подароци откражени од Grinch. Секое ниво е немилосна и тешка предизвик.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Тешка платформа игра со велигденска тема каде што играчот контролира јајце и се обидува да се врати во вистинско гнездо по неправилно поставување во птичко гнездо.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Мои алатки",
+    "subHeadline": "Сите алатки што го создадов до сега.",
+    "search": "Пребарувај алатки",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Создавајте QR кодови онлајн бесплатно и прилагодете ги во зависност од потреба.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Веб-локација",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github складиште",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Лесно управувајте Jams (натпревари) на вашиот Discord сервер.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Инсталирајте на вашиот сервер",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github складиште",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Контактирајте ме",
+    "subHeadline": "Го чекам твоето пораката",
+    "sections": {
+      "Придружи се на мојата заедница:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Придружи се"
+        }
+      },
+      "Следи ме на:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Следи"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Следи"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Следи"
+        }
+      },
+      "Или контактирајте ме директно:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Испратете"
+        }
+      }
+    }
+  }
+}

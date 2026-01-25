@@ -1,0 +1,113 @@
+{
+  "_name": "Magyar",
+  "home": "Kezdőlap",
+  "about": "Rólam",
+  "tools": "Eszközök",
+  "contact": "Kapcsolat",
+  "games": "Játékok",
+  "language": "Nyelv",
+  "discord": "Csatlakozz a Discord szerveremhez",
+  "ai": "Nem AI által generált",
+  "mainPage": {
+    "Greeting": "Szia, Joko26 vagyok 👋",
+    "subGreeting": "Egy 16 éves programozó Németországból, aki játékokat, webalkalmazásokat és eszközöket hoz létre az új dolgok megtanulásához és az ötletek megosztásához.",
+    "button": "többet szeretnék tudni",
+    "contactButton": "lépj kapcsolatba velem",
+    "cards": {
+      "discord": {
+        "head": "Az én Discord közösségem",
+        "text": "Üdvözlünk az Orosemo hivatalos Discord szerverén, a közösségem központján. Itt csatlakozhatsz másokkal, korai hozzáférést kaphatsz a frissítésekhez, és tudást cserélhetsz az ugyanúgy gondolkodó emberekkel. Közösségi csatornákat is találsz a csevegéshez, az együttműködéshez és a saját kreációid bemutatásához. Mindenki szívesen csatlakozhat a szerverhez és léphet kapcsolatba a közösséggel!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Csatlakozz most"
+      },
+      "itch": {
+        "head": "Az én Itch.io oldalam",
+        "text": "Itt megtalálod az összes játékomat, valamint mindent, ami velük kapcsolatos: eszközcsomag, demó, Game Jam projektek (kisebb játékfejlesztési versenyek (WIP 😅)) és még sok más. Kövesd nyomon, ha szeretnéd látni mindazt, amit a jövőben létre fogok hozni!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Megtekintés most"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Az én játékaim",
+    "subHeadline": "Az összes játék, amelyet eddig létrehoztam.",
+    "search": "játék keresése",
+    "play": "játék az itch.io-n",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Egy karácsonyi témájú ugrálós játék azzal a céllal, hogy visszaszerezze a Grinch által ellopott ajándékokat. Minden szint egy kíméletlen és nehéz kihívás.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Egy nehéz húsvét témájú platformer, amelyben a játékos egy tojást irányít, és megpróbál visszatérni a megfelelő fészekbe, miután hibásan egy madár fészesébe kerül.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Az én eszközeim",
+    "subHeadline": "Az összes eszköz, amelyet eddig létrehoztam.",
+    "search": "eszköz keresése",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Hozz létre QR kódokat online ingyenesen, és szabd testre őket a saját igényeid szerint.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Weboldal",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github Tárház",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Könnyen kezelj Jamokat (versenyeket) a Discord szervereiden.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Telepítsd a szerveredre",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github Tárház",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Lépj kapcsolatba velem",
+    "subHeadline": "Várom az üzeneteid",
+    "sections": {
+      "Csatlakozz a közösségemhez:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Csatlakozz"
+        }
+      },
+      "Kövesd nyomon:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Kövesd"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Kövesd"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Kövesd"
+        }
+      },
+      "Vagy lépj közvetlenül kapcsolatba:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Küldés"
+        }
+      }
+    }
+  }
+}

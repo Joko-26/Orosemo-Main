@@ -1,0 +1,113 @@
+{
+  "_name": "Slovenščina",
+  "home": "Domov",
+  "about": "O meni",
+  "tools": "Orodja",
+  "contact": "Kontakt",
+  "games": "Igre",
+  "language": "Jezik",
+  "discord": "Pridruži se mojemu strežniku Discord",
+  "ai": "Ni bilo ustvarjeno z umetno inteligenco",
+  "mainPage": {
+    "Greeting": "Živjo, sem Joko26 👋",
+    "subGreeting": "16-letni programer iz Nemčije, ki ustvarja igre, spletne aplikacije in orodja, da se naučim novih stvari in si delim ideje.",
+    "button": "Poglej več",
+    "contactButton": "Stopite v stik z menoj",
+    "cards": {
+      "discord": {
+        "head": "Moja skupnost Discord",
+        "text": "Dobrodošli na uradnem strežniku Orosemo Discord, središče moje skupnosti. Tu se lahko povežete z drugimi, pridobite zgodnji dostop do posodobitev in si delite znanje z enakomiselnimi ljudmi. Našli boste tudi skupnostne kanale za pogovore, sodelovanje in prikaz svojih lastnih ustvarjalnih del. Vsi so vabljeni, da se pridružijo strežniku in komunicirajo s skupnostjo!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Pridruži se zdaj"
+      },
+      "itch": {
+        "head": "Moja stran na Itch.io",
+        "text": "Tukaj boste našli vse moje igre, plus vse, kar je z njimi povezano: pakete sredstev, predstave, projekte Game Jam (majhna tekmovanja za razvoj iger (WIP 😅)) in še veliko več. Sledite mi, če želite videti vse, kar bom gradil v prihodnosti!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Poglej zdaj"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Moje igre",
+    "subHeadline": "Vse igre, ki sem jih doslej ustvaril.",
+    "search": "Iskanje iger",
+    "play": "Igraj na itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Igra s skokom na božično temo z namenom povrniti darila, ki jih je ukradel Grinch. Vsaka raven je brezsmilna in težka izazov.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Težka igra na platformi z motivom velikonočne teme, v kateri igralec upravlja jajce in se poskuša vrniti v pravo gnezdo, potem ko ga je napačno postavil v ptičje gnezdo.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Moja orodja",
+    "subHeadline": "Vse orodja, ki sem jih doslej ustvaril.",
+    "search": "Iskanje orodij",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Ustvarite QR kode na spletu brezplačno in jih prilagodite po želji.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Spletna stran",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Skladišče Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Preprosto upravljajte Jams (tekmovanja) na svojem strežniku Discord.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Namestite na svoj strežnik",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Skladišče Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Stopite v stik z menoj",
+    "subHeadline": "Čakam na vaše sporočilo",
+    "sections": {
+      "Pridruži se mojej skupnosti:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Pridruži se"
+        }
+      },
+      "Sledi mi na:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Sledi"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Sledi"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Sledi"
+        }
+      },
+      "Ali se z menoj stopite v stik neposredno:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Pošlji"
+        }
+      }
+    }
+  }
+}

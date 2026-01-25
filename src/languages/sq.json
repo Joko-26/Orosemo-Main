@@ -1,0 +1,113 @@
+{
+  "_name": "Shqiptare",
+  "home": "Shtëpia",
+  "about": "Për Mua",
+  "tools": "Mjetet",
+  "contact": "Kontakti",
+  "games": "Lojërat",
+  "language": "Gjuha",
+  "discord": "Bashkohuni me serverin tim të Discord",
+  "ai": "Jo i krijuar nga AI",
+  "mainPage": {
+    "Greeting": "Përshëndetje, unë jam Joko26 👋",
+    "subGreeting": "Një programues 16-vjeçar nga Gjermania që krijon lojëra, zbatime uebi dhe mjete për të mësuar gjëra të reja dhe për të ndarë ide.",
+    "button": "Shih Më Shumë",
+    "contactButton": "Kontaktoni mua",
+    "cards": {
+      "discord": {
+        "head": "Komunitetit im i Discord",
+        "text": "Mirë se erdhët në Discord-in zyrtar të Orosemo, qendër të komunitetit tim. Këtu mund të lidhen me të tjerët, të marrin akses të hershëm në azhurnimet dhe të ndajnë njohuritë me njerëz me mënyrë të ngjashme të të menduarit. Ju gjithashtu do të gjeni kanalet e komunitetit për bisedë, bashkëpunim dhe të shfaqni krijimet tuaja. Të gjithë janë të mirëpritur të bashkohen në server dhe të ndërveprojnë me komunitetin!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Bashkohuni Tani"
+      },
+      "itch": {
+        "head": "Faqja ime në Itch.io",
+        "text": "Këtu do të gjeni të gjitha lojërat e mia, plus gjithçka e lidhur me to: paketa aktive, demo, projektet Game Jam (konkurrime të vogla të zhvillimit të lojës (WIP 😅)) dhe më shumë. Ndiqni mua nëse doni të shihni gjithçka që do të ndërtoj në të ardhmen!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Shih Tani"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Lojërat e mia",
+    "subHeadline": "Të gjitha lojërat që kam krijuar deri më tani.",
+    "search": "Kërkoje lojëra",
+    "play": "Luaj në itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Një lojë kërcimi me temën e Krishtlindjeve me qëllimin e rikthimit të dhuratave të vjedhura nga Grinch. Çdo nivel është një sfidë e pamëshirshme dhe e vështirë.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Një lojë platforme e vështirë me temën e Pashkëve ku lojtari kontrollon një vezë dhe përpiqet të kthehet në folenë e duhur pasi ta ka vendosur gabim në folenë e zogut.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Mjetet e mia",
+    "subHeadline": "Të gjitha mjetet që kam krijuar deri më tani.",
+    "search": "Kërkoje mjete",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Krijoni kode QR në internet falas dhe përshtatni ato sipas dëshirës.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Faqja e uebit",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Depo i Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Menaxhoji lehtë Jams (garat) në serverin tënd të Discord.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Instalo në serverin tënd",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Depo i Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Kontaktoni mua",
+    "subHeadline": "Pres mesazhin tënd",
+    "sections": {
+      "Bashkohuni me komunitetin tim:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Bashkohuni"
+        }
+      },
+      "Ndiqmi në:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Ndjekse"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Ndjekse"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Ndjekse"
+        }
+      },
+      "Ose kontaktoni mua drejtpërdrejt:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Dërgoje"
+        }
+      }
+    }
+  }
+}

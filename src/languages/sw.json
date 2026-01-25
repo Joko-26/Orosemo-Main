@@ -1,0 +1,113 @@
+{
+  "_name": "Kiswahili",
+  "home": "Nyumbani",
+  "about": "Kuhusu",
+  "tools": "Zana",
+  "contact": "Wasiliana",
+  "games": "Michezo",
+  "language": "Lugha",
+  "discord": "Jiunge na seva yangu ya Discord",
+  "ai": "Haijatengenezwa na AI",
+  "mainPage": {
+    "Greeting": "Habari, mimi ni Joko26 👋",
+    "subGreeting": "Mprogrami wa umri wa miaka 16 kutoka Ujerumani anayetengeneza michezo, programu za wavuti na zana za kujifunza mambo mapya na kushiriki mawazo.",
+    "button": "ona zaidi",
+    "contactButton": "wasiliana nami",
+    "cards": {
+      "discord": {
+        "head": "Jamii yangu ya Discord",
+        "text": "Karibu kwenye Discord rasmi ya Orosemo, kituo cha jamii yangu. Hapa unaweza kuunganisha na wengine, kupata ufikiaji wa mapema kwa maboresho, na kubadilisha ujifunzaji na watu waenye akili sawa. Utapata pia njia za jamii za ombi, ushirikiano, na kuonyesha imarisho lako mwenyewe. Kila mtu anaalika kumwakilisha kwenye seva na kukamatia na jamii!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Jiunge sasa"
+      },
+      "itch": {
+        "head": "Ukurasa wangu wa Itch.io",
+        "text": "Hapa utapata michezo yote yangu, pamoja na kila kitu kinachohusiana nacho: pakiti za mali, onyesho, mradi wa Game Jam (michezo ndogo ya maendeleo (WIP 😅)) na zaidi. Nifuate kama unataka kuona kila kitu nitakachojengea sasa.",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Tazama sasa"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Michezo yangu",
+    "subHeadline": "Michezo yote ambayo nimefanya hadi sasa.",
+    "search": "tafuta mchezo",
+    "play": "cheza kwenye itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Mchezo wa kuruka wenye mada ya Krismasi na lengo la kurejesha zawadi zilizosaliliwa na Grinch. Kila ngazi ni changamoto isiyo na huruma na ngumu.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Mchezo wa jukumu mgumu wenye mada ya Pasaka ambamo mchezaji anakontrol yai na kujaribu kurudi kwa nchi sahihi baada ya kuwekwa vibaya kwenye nchi ya ndege.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Zana zangu",
+    "subHeadline": "Zana zote ambayo nimefanya hadi sasa.",
+    "search": "tafuta zana",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Tengeneza misimbo ya QR mtandaoni kwa urahisi na kuorodhesha kama unavyopendelea.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Tovuti",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Hifadhidata ya Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Simamia Jam (michezo) kwenye seva zako za Discord kwa urahisi.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Sakinisha kwenye seva yako",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Hifadhidata ya Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Wasiliana nami",
+    "subHeadline": "Ninasubiri ujumbe wako",
+    "sections": {
+      "Jiunge na jamii yangu kwenye:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Jiunge"
+        }
+      },
+      "Nifuate kwenye:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Fuata"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Fuata"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Fuata"
+        }
+      },
+      "Au wasiliana nami moja kwa moja:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Tuma"
+        }
+      }
+    }
+  }
+}

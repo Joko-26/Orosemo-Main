@@ -1,0 +1,113 @@
+{
+  "_name": "Dansk",
+  "home": "Hjem",
+  "about": "Om mig",
+  "tools": "Værktøjer",
+  "contact": "Kontakt",
+  "games": "Spil",
+  "language": "Sprog",
+  "discord": "Bliv medlem af min Discord-server",
+  "ai": "Ikke genereret af AI",
+  "mainPage": {
+    "Greeting": "Hej, jeg er Joko26 👋",
+    "subGreeting": "En 16-årig programmør fra Tyskland, der laver spil, webapplikationer og værktøjer for at lære nye ting og dele idéer.",
+    "button": "se mere",
+    "contactButton": "kontakt mig",
+    "cards": {
+      "discord": {
+        "head": "Mitt Discord-samfund",
+        "text": "Velkommen til Orosemos officielle Discord, mit communitycentrum. Her kan du forbinde dig med andre, få tidlig adgang til opdateringer og dele viden med ligesindede. Du finder også fællesskabskanaler til chat, samarbejde og visning af dine egne kreationer. Alle er velkomne til at slutte sig til serveren og interagere med fællesskabet!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Bliv medlem nu"
+      },
+      "itch": {
+        "head": "Min Itch.io-side",
+        "text": "Her finder du alle mine spil, plus alt relateret til dem: asset-pakker, demoer, Game Jam-projekter (små spilludviklingkonkurrencer (WIP 😅)) og meget mere. Følg mig hvis du vil se alt, hvad jeg bygger i fremtiden!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Se nu"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Mine spil",
+    "subHeadline": "Alle spil jeg har lavet indtil videre.",
+    "search": "søg spil",
+    "play": "spil på itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Et juleinspireret springspil med målet at genvinde gaver, som blev stjålet af Grinch. Hvert niveau er en hensynsløs og svær udfordring.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Et svært påskeinspireret platformspil, hvor spilleren styrer et æg og forsøger at komme tilbage til det rigtige rede efter at være blevet placeret forkert i et fuglenest.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Mine værktøjer",
+    "subHeadline": "Alle værktøjer jeg har lavet indtil videre.",
+    "search": "søg værktøj",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Opret QR-koder online gratis og tilpas dem efter ønske.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Websted",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github-arkiv",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Administrer nemt Jams (konkurrencer) på dine Discord-servere.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Installer på din server",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github-arkiv",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Kontakt mig",
+    "subHeadline": "Jeg venter på din besked",
+    "sections": {
+      "Bliv medlem af mit fællesskab på:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Bliv medlem"
+        }
+      },
+      "Følg mig på:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Følg"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Følg"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Følg"
+        }
+      },
+      "Eller kontakt mig direkte:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Send"
+        }
+      }
+    }
+  }
+}

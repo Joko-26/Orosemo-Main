@@ -1,0 +1,113 @@
+{
+  "_name": "Ελληνικά",
+  "home": "Αρχική",
+  "about": "Σχετικά",
+  "tools": "Εργαλεία",
+  "contact": "Επαφή",
+  "games": "Παιχνίδια",
+  "language": "Γλώσσα",
+  "discord": "Ενταχθείτε στο διακομιστή Discord μου",
+  "ai": "Δεν δημιουργήθηκε από AI",
+  "mainPage": {
+    "Greeting": "Γεια σου, είμαι ο Joko26 👋",
+    "subGreeting": "Ένας 16χρονος προγραμματιστής από τη Γερμανία που δημιουργεί παιχνίδια, εφαρμογές ιστού και εργαλεία για μάθηση νέων πραγμάτων και ανταλλαγή ιδεών.",
+    "button": "δες περισσότερα",
+    "contactButton": "επικοινώνησε μαζί μου",
+    "cards": {
+      "discord": {
+        "head": "Η κοινότητά μου στο Discord",
+        "text": "Καλώς ήρθατε στο επίσημο Discord του Orosemo, το κέντρο της κοινότητάς μου. Εδώ μπορείτε να συνδεθείτε με άλλους, να λάβετε πρόσβαση νωρίτερα στις ενημερώσεις και να ανταλλάξετε γνώσεις με ομόνοιες ψυχές. Θα βρείτε επίσης κανάλια κοινότητας για συνομιλία, συνεργασία και προβολή των δικών σας δημιουργιών. Όλοι καλώς ήρθατε να συμμετάσχουν στο διακομιστή και να αλληλεπιδράσουν με την κοινότητα!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Ενταχθείτε τώρα"
+      },
+      "itch": {
+        "head": "Η σελίδα μου στο Itch.io",
+        "text": "Εδώ θα βρείτε όλα τα παιχνίδιά μου, συν όλα τα σχετικά με αυτά: πακέτα περιουσιακών στοιχείων, επιδείξεις, έργα Game Jam (μικρές διαγωνισμοί ανάπτυξης παιχνιδιών (WIP 😅)) και πολλά άλλα. Ακολουθήστε με αν θέλετε να δείτε όλα όσα θα φτιάξω στο μέλλον!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Δείτε τώρα"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Τα παιχνίδιά μου",
+    "subHeadline": "Όλα τα παιχνίδια που έχω δημιουργήσει μέχρι στιγμής.",
+    "search": "αναζήτηση παιχνιδιού",
+    "play": "παίξτε στο itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Ένα χριστουγεννιάτικο παιχνίδι άλματος με στόχο την ανάκτηση των δώρων που έκλεψε ο Grinch. Κάθε επίπεδο είναι μια αδυσώπητη και δύσκολη πρόκληση.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Ένα δύσκολο platformer με θέμα το Πάσχα στο οποίο ο παίκτης ελέγχει ένα αυγό και προσπαθεί να επιστρέψει στη σωστή φωλιά μετά από λανθασμένη τοποθέτηση σε φωλιά πτηνού.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Τα εργαλειά μου",
+    "subHeadline": "Όλα τα εργαλεία που έχω δημιουργήσει μέχρι στιγμής.",
+    "search": "αναζήτηση εργαλείου",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Δημιουργήστε κωδικούς QR στο διαδίκτυο δωρεάν και προσαρμόστε τους όπως θέλετε.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Ιστοσελίδα",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Αποθετήριο Github",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Διαχειριστείτε εύκολα τα Jams (διαγωνισμοί) στους διακομιστές Discord σας.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Εγκαταστήστε στον διακομιστή σας",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Αποθετήριο Github",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Επικοινώνησε μαζί μου",
+    "subHeadline": "Αναμένω το μήνυμά σας",
+    "sections": {
+      "Ενταχθείτε στην κοινότητά μου στο:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Ενταχθείτε"
+        }
+      },
+      "Ακολουθήστε με στο:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Ακολουθήστε"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Ακολουθήστε"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Ακολουθήστε"
+        }
+      },
+      "Ή επικοινωνήστε απευθείας:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Αποστολή"
+        }
+      }
+    }
+  }
+}

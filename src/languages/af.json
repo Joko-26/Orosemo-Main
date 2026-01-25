@@ -1,0 +1,113 @@
+{
+  "_name": "Afrikaans",
+  "home": "Tuis",
+  "about": "Oor my",
+  "tools": "Gereedskap",
+  "contact": "Kontak",
+  "games": "Spele",
+  "language": "Taal",
+  "discord": "Sluit by my Discord-bediener aan",
+  "ai": "Nie gegenereer deur AI",
+  "mainPage": {
+    "Greeting": "Hallo, ek is Joko26 👋",
+    "subGreeting": "'n 16-jarige programmeur uit Duitsland wat spele, webaplikasies en gereedskap skep om nuwe dinge te leer en idees te deel.",
+    "button": "sien meer",
+    "contactButton": "skakel my",
+    "cards": {
+      "discord": {
+        "head": "My Discord-gemeenskap",
+        "text": "Welkom op die amptelike Discord van Orosemo, my gemeenskapsentrum. Hier kan jy met ander in verbinding tree, vroeë toegang tot updates kry en kennis met gelyksgesinde mense uitruil. Jy sal ook gemeenskapskanale vind vir kletpraat, samewerking en vertoning van jou eie skepping. Almal word verwelkom om by die bediener aan te sluit en met die gemeenskap in wisselwerking te tree!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Sluit nou aan"
+      },
+      "itch": {
+        "head": "My Itch.io-bladsy",
+        "text": "Hier sal jy al my spele vind, plus alles wat daarmee verband hou: bate-pakkette, demo's, Game Jam-projekte (klein spelontwikkeling-wedstryde (WIP 😅)) en nog baie meer. Volg my as jy alles wil sien wat ek in die toekoms sal bou!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Sien nou"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "My spele",
+    "subHeadline": "Al die spele wat ek tot dusver gemaak het.",
+    "search": "soek spel",
+    "play": "speel op itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Een Kersmasspel met die doel om die gawes wat deur Grinch gesteel is, terug te kry. Elke vlak is 'n genadelose en moeilike uitdaging.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "In moeilike Paasagtergrond-platformer waarin die speler 'n ei beheer en probeer teruggaan na die regte nes nadat dit verkeerd in 'n voëlnes geplaas is.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "My gereedskap",
+    "subHeadline": "Al die gereedskap wat ek tot dusver gemaak het.",
+    "search": "soek gereedskap",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Maak QR-kodes aanlyn gratis en pas dit aan soos jy wil.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Webwerf",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github-repository",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Bestuur Jams (wedstryde) op jou Discord-bedieners maklik.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Installeer op jou bediener",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github-repository",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Skakel my",
+    "subHeadline": "Ek wag op jou boodskap",
+    "sections": {
+      "Sluit by my gemeenskap aan op:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Sluit aan"
+        }
+      },
+      "Volg my op:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Volg"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Volg"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Volg"
+        }
+      },
+      "Of skakel my direk:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Stuur"
+        }
+      }
+    }
+  }
+}

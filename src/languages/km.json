@@ -1,0 +1,113 @@
+{
+  "_name": "Khmer",
+  "home": "ទំព័រដើម",
+  "about": "ពីក្នុង",
+  "tools": "ឧបករណ៍",
+  "contact": "ទាក់ទង",
+  "games": "ហ្គេម",
+  "language": "ភាសា",
+  "discord": "ចូលរួមម៉ាកបណ្តាញ Discord របស់ខ្ញុំ",
+  "ai": "មិនផលិតដោយ AI",
+  "mainPage": {
+    "Greeting": "សាលល័ដ, ខ្ញុំគឺ Joko26 👋",
+    "subGreeting": "ក្មេងស្ទាក់ឌ័ শैលយ័គ១៦ឆ្នាំពីអាឡឺម៉ង់ដែលបង្កើត ហ្គេម កម្មវិធីគេហទំព័រ និងឧបករណ៍ដើម្បីរៀន ឧទាហរណ៍ថ្មី ឬលេងនឹងគំនិត។",
+    "button": "មើលលម្អិត",
+    "contactButton": "ទាក់ទងខ្ញុំ",
+    "cards": {
+      "discord": {
+        "head": "សម្រាប់ Discord របស់ខ្ញុំ",
+        "text": "សូមស្វាគមន៍ आগmeldت Orosemo លើ Discord ជាផ្លូវការ ឫ ដូចស្វាគមន៍ប្លុកកommunity គេហទំព័ររបស់ខ្ញុំ។ នៅទីនេះ អ្នកអាចទាក់ទងម្នាក់ទៀត ទទួលបានលក្ខណ៍ដំបូង ដៃក្នុងការលម្អិត និងលេង់ដ្ឋានចំណេះដឹងរវាងមនុស្សដែលគិតលម្អិត។ អ្នកក៏នឹងស្វាគមន៍ផងដែរ ដែលកម្មវិធីសម្របសម្រួលដែលខ្នាតចូលទាក់ទង ឬដូចលេង់ ឬបង្ហាញពីការលេង់របស់អ្នក។ មនុស្សគ្រប់នាក់ដែលបង្ហាញលក្ខណ៍ដើម្បីចូលរួម ឫម៉ាកបណ្តាញ និងលេង់ទាក់ទងពីសមរភូមិ។",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "ចូលរួមឥឡូវ"
+      },
+      "itch": {
+        "head": "ទំព័ររបស់ខ្ញុំនៅលើ Itch.io",
+        "text": "នៅទីនេះ អ្នកនឹងរកឃើញហ្គេមទាំងអស់របស់ខ្ញុំ និងលម្អិតលម្អិត៖ ក្រុមរង្វាយ ប្រទាន់សូលរ័ការលេង់ល Jam ឬបង្កើតការលេង់ (រង្វាយដ៏ថ្មើរ ឫលម្អិត (WIP 😅)) និងច្រើនទៀត។ ធ្វើឱ្យឯកឝ័រយើងប្រសិនបើអ្នកនឹងមើលលម្អិត ដែលខ្ញុំនឹងបង្កើត។",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "មើលឥឡូវ"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "ហ្គេមរបស់ខ្ញុំ",
+    "subHeadline": "ហ្គេមទាំងអស់ដែលខ្ញុំបង្កើតរហូតដល់ឥឡូវនេះ។",
+    "search": "ស្វាគមន៍ហ្គេម",
+    "play": "លេងលើ itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "ហ្គេមលេងក្នុងរំលឹកជ្រើសរើស Krissmusចរិត ដែលប្រើក្នុងការទទួលបានលម្អិតដែលក្ដាក់ដោយ Grinch។ រៀងរាល់ដង្វល់គឺក្ដាក់ដែលសាលច្រើន និងលម្អិតលម្អិត។",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "ហ្គេមលេងក្នុងរំលឹកលម្អិត Easter ដែលលេង់ក្ដាក់ម្ដុំ និងសាលច្រើនក្នុងការឧបាយលម្អិតដែលក្ដាក់។",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "ឧបករណ៍របស់ខ្ញុំ",
+    "subHeadline": "ឧបករណ៍ទាំងអស់ដែលខ្ញុំបង្កើតរហូតដល់ឥឡូវនេះ។",
+    "search": "ស្វាគមន៍ឧបករណ៍",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "បង្កើត QR លេខលម្អិតខាងលើ នៃលក្ខណ៍អ៊ីស្វ័រដោយឥតគិតថ្លៃ។",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*គេហទំព័រ",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github ម៉ាកបណ្តាញ",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "ដូចលេង់ Jams (រង្វាយលម្អិត) នៅលើម៉ាកបណ្តាញ Discord របស់អ្នក។",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*ដំឡើងលើម៉ាកបណ្តាញរបស់អ្នក",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github ម៉ាកបណ្តាញ",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "ទាក់ទងខ្ញុំ",
+    "subHeadline": "ខ្ញុំរង់ចាំលម្អិតលម្អិត",
+    "sections": {
+      "ចូលរួមសម្របដែលលម្អិត:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "ចូលរួម"
+        }
+      },
+      "ធ្វើឱ្យឯកឝ័របស់ខ្ញុំលើ:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "ធ្វើឱ្យឯក"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "ធ្វើឱ្យឯក"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "ធ្វើឱ្យឯក"
+        }
+      },
+      "ឬទាក់ទងខ្ញុំដោយផ្ទាល់:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "ផ្ញើ"
+        }
+      }
+    }
+  }
+}

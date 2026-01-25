@@ -1,0 +1,113 @@
+{
+  "_name": "Lietuvių",
+  "home": "Pradžia",
+  "about": "Apie",
+  "tools": "Įrankiai",
+  "contact": "Kontaktas",
+  "games": "Žaidimai",
+  "language": "Kalba",
+  "discord": "Prisijunkite prie mano Discord serverio",
+  "ai": "Nežymėtos IA",
+  "mainPage": {
+    "Greeting": "Sveikas, aš esu Joko26 👋",
+    "subGreeting": "16 metų programuotojas iš Vokietijos, kuris kuria žaidimus, žiniatinklio programas ir įrankius, norėdamas išmokti naujų dalykų ir pasidalinti idėjomis.",
+    "button": "Žiūrėti daugiau",
+    "contactButton": "Susisiekite su manimi",
+    "cards": {
+      "discord": {
+        "head": "Mano Discord bendruomenė",
+        "text": "Sveiki atvykę į oficialaus Orosemo Discord serverį, mano bendruomenės centrą. Čia galite prisijungti prie kitų žmonių, gauti ankstyvą prieigą prie atnaujinimų ir dalytis žiniomis su panašiai mąstančiais žmonėmis. Taip pat rasite bendruomenės kanalus pokalbiam, bendradarbiavimui ir savo kūrybos demonstravimui. Visi kviečiami prisijungti prie serverio ir bendrauti su bendruomene!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "Prisijunkite dabar"
+      },
+      "itch": {
+        "head": "Mano Itch.io puslapis",
+        "text": "Čia rasite visus mano žaidimus ir visa kita su jais susijusią: turtų paketus, demonstracijas, Game Jam projektus (mažus žaidimų tobulinimo konkursus (WIP 😅)) ir dar daug ko. Sekite mane, jei norite pamatyti viską, ką nuo šiol sukursiu!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "Žiūrėti dabar"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "Mano žaidimai",
+    "subHeadline": "Visi žaidimai, kuriuos sukūriau iki šiol.",
+    "search": "Ieškoti žaidimų",
+    "play": "Žaisti itch.io",
+    "games": {
+      "Jolly Jumper": {
+        "description": "Šokinėjimo žaidimas su Kalėdų tema, kurio tikslas — atsigauti dovanas, kurias pavogė Grinch. Kiekvienas lygis yra nepadorus ir sunkus iššūkis.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "Sunkus platforminis žaidimas su Velykų tema, kuriame žaidėjas valdo kiaušinį ir bando grįžti į teisingą lizdą po klaidingo jį padėjus į paukščio lizdu.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "Mano įrankiai",
+    "subHeadline": "Visi įrankiai, kuriuos sukūriau iki šiol.",
+    "search": "Ieškoti įrankių",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "Kurkite QR kodus internete nemokamai ir pritaikykite juos pagal savo pageidavimus.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*Žiniatinklio svetainė",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github saugykla",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "Nesunkiai valgyti Jams (konkursus) savo Discord serveryje.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*Diegti savo serveryje",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github saugykla",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "Susisiekite su manimi",
+    "subHeadline": "Aš laukiau jūsų žinutės",
+    "sections": {
+      "Prisijunkite prie mano bendruomenės:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "Prisijungti"
+        }
+      },
+      "Sekite mane:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "Sekti"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "Sekti"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "Sekti"
+        }
+      },
+      "Arba susisiekite su manimi tiesiogiai:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "Siųsti"
+        }
+      }
+    }
+  }
+}

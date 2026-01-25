@@ -1,0 +1,113 @@
+{
+  "_name": "ქართული",
+  "home": "საწყისი",
+  "about": "ჩემ შესახებ",
+  "tools": "ხელსაწყოები",
+  "contact": "კონტაქტი",
+  "games": "თამაშები",
+  "language": "ენა",
+  "discord": "შემოგვიერთდი ჩემი Discord სერვერთან",
+  "ai": "AI-ის მიერ არ არის შექმნილი",
+  "mainPage": {
+    "Greeting": "გამარჯობა, მე ვარ Joko26 👋",
+    "subGreeting": "16 წლის პროგრამისტი გერმანიიდან, რომელიც აქმნის თამაშებს, ვებ-აპლიკაციებს და ხელსაწყოებს ახალი რამის სწავლისა და იდეების გაზიარების მიზნით.",
+    "button": "მეტის ნახვა",
+    "contactButton": "დამეკონტაქტე",
+    "cards": {
+      "discord": {
+        "head": "ჩემი Discord საზოგადოება",
+        "text": "კეთილი იყო თქვენი მობრძანება Orosemo-ს ოფიციალურ Discord-ზე, ჩემი საზოგადოების ცენტრი. აქ შეგიძლია დაკავშირდე სხვებთან, მიიღო ადრეული ხელმისაწვდომობა განახლებებთან და გაიზიარო ცოდნა ხელმისაწვდომი ფიქრის გამქონე ადამიანებთან. თქვენ ასევე იპოვით საზოგადოების არხებს ჩატისთვის, თანამშრომლობისთვის და თქვენი საკუთარი შემოქმედების ჩვენებისთვის. ყველა მოწვეულია სერვერთან შეუერთდეს და საზოგადოებასთან მიუთითოს!",
+        "img": "/cardImg/discord.png",
+        "link": "https://tr.ee/Orosemo-Discord",
+        "linkName": "ახლა შემოგვიერთდი"
+      },
+      "itch": {
+        "head": "ჩემი Itch.io გვერდი",
+        "text": "აქ თქვენ იპოვით ჩემს ყველა თამაშს, პლუს ყველაფერი, რომელიც მათი დაკავშირებულია: აქტივების პაკეტები, დემო, Game Jam პროექტები (მცირე თამაშის განვითარების კონკურსები (WIP 😅)) და ა.შ. გამარჩენი მე, თუ გსურს ნახო ყველაფერი, რომელსაც მომავალში აწყობ!",
+        "img": "/cardImg/itch.png",
+        "link": "https://orosemo.itch.io/",
+        "linkName": "ნახე ახლა"
+      }
+    }
+  },
+  "gamesPage": {
+    "headline": "ჩემი თამაშები",
+    "subHeadline": "ყველა თამაში, რომელიც დღემდე შევქმენი.",
+    "search": "თამაშის ძებნა",
+    "play": "ითამაშე itch.io-ზე",
+    "games": {
+      "Jolly Jumper": {
+        "description": "საშობაო თემის ახტომის თამაში ლოცვის მიზნით, რომელიც Grinch-ის მიერ გაპარტახებული. თითოეული დონე უმიზეზო და რთული გამოწვევა.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/jolly-jumper",
+        "img": "/games-tools/jolly-jumper-logo.png"
+      },
+      "Easter Eggscape": {
+        "description": "კიდევ რთული აღდგომის თემის პლატფორმა, რომელშიც მოთამაშე აკონტროლებს კვერცხს და ცდილობს დაბრუნდეს სწორი ბუდეში ფრინველის ბუდეში არასწორი განთავსების შემდეგ.",
+        "platforms": "Win:Web",
+        "link": "https://orosemo.itch.io/easter",
+        "img": "/games-tools/easter-egg-logo.png"
+      }
+    }
+  },
+  "toolsPage": {
+    "headline": "ჩემი ხელსაწყოები",
+    "subHeadline": "ყველა ხელსაწყო, რომელიც დღემდე შევქმენი.",
+    "search": "ხელსაწყოს ძებნა",
+    "tools": {
+      "QR-Code Generator": {
+        "id": 1,
+        "description": "შექმენით QR კოდები ონლაინ უფასოდ და მოერგეთ თქვენი ნიჭის გამოხატვით.",
+        "platforms": "Web",
+        "link1": "https://qrcode-creator.orosemo.de/*ვებსაიტი",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github საცავი",
+        "img": "/games-tools/qr-code-gen-logo.png"
+      },
+      "Jam Management Discord Bot": {
+        "id": 2,
+        "description": "მართვა Jam-ები (კონკურსები) თქვენი Discord სერვერებში ადვილად.",
+        "platforms": "Dis",
+        "link1": "https://qrcode-creator.orosemo.de/*დაინსტალირეთ თქვენს სერვერზე",
+        "link2": "https://github.com/Joko-26/QR-Code-generator/tree/master*Github საცავი",
+        "img": "/games-tools/jam-bot-logo.png"
+      }
+    }
+  },
+  "contactsPage": {
+    "headline": "დამეკონტაქტე",
+    "subHeadline": "ველოდები თქვენს შეტყობინებას",
+    "sections": {
+      "შემოგვიერთდი ჩემ საზოგადოებას:": {
+        "Discord": {
+          "img": "/cardImg/discord.png",
+          "link": "https://tr.ee/Orosemo-Discord",
+          "button": "შემოგვიერთდი"
+        }
+      },
+      "მიყვე ჩემ:": {
+        "Bluesky": {
+          "img": "/cardImg/bluesky.png",
+          "link": "https://bsky.app/profile/orosemo.de",
+          "button": "მიყვე"
+        },
+        "Itch.io": {
+          "img": "/cardImg/itch.png",
+          "link": "https://orosemo.itch.io/",
+          "button": "მიყვე"
+        },
+        "Youtube": {
+          "img": "/cardImg/youtube.png",
+          "link": "https://www.youtube.com/@orosemo",
+          "button": "მიყვე"
+        }
+      },
+      "ან დამეკონტაქტე უშუალოდ:": {
+        "Email": {
+          "img": "/cardImg/mail.png",
+          "link": "mailto:contact@orosemo.de",
+          "button": "გამოაგზავნე"
+        }
+      }
+    }
+  }
+}
