@@ -1,6 +1,6 @@
 "use client";
 
-import { Sun, Moon, Ghost } from "lucide-react";
+import { Sun, Moon, Ghost, CandyCane } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/hooks/useTheme.tsx";
 import { useMemo } from "react";
@@ -12,13 +12,16 @@ export function ThemeToggle() {
     light: <Sun className="h-5 w-5" />,
     dark: <Moon className="h-5 w-5" />,
     halloween: <Ghost className="h-5 w-5" />,
+    christmas: <CandyCane className="h-5 w-5" />
   };
 
   const themes = useMemo(() => {
     const baseThemes = ["light", "dark"];
     const currentDate = new Date();
-    if (currentDate.getMonth() === 0) {
+    if (currentDate.getMonth() === 9) {
       baseThemes.push("halloween");
+    } else if (currentDate.getMonth() === 11 || currentDate.getMonth() === 10) {
+      baseThemes.push("christmas");
     }
     return baseThemes;
   }, []);

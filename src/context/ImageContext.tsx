@@ -44,6 +44,14 @@ export function ImageContextProvider({
         name_small: "/logos/halloween_name.png",
         pfp: "/pfp/pfp_halloween.jpg",
       });
+    } else if (theme === "christmas") {
+      SetImages({
+        logo: "/logos/christmas_logo_1000.png",
+        name: "/logos/christmas_name_1000.png",
+        logo_small: "/logos/christmas_logo.png",
+        name_small: "/logos/christmas_name.png",
+        pfp: "/pfp/pfp-christmas.jpeg",
+      });
     } else if (theme === "dark") {
       SetImages({
         logo: "/logos/ororsemo_logo_trans.png",

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
-type Theme = "light" | "dark" | "halloween";
+type Theme = "light" | "dark" | "halloween" | "christmas";
 
 interface ThemeContextType {
   theme: Theme;
@@ -23,11 +23,18 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     // Update DOM classes
     if (theme === "dark") {
       document.documentElement.classList.remove("halloween");
+      document.documentElement.classList.remove("christmas");
       document.documentElement.classList.add("dark");
     } else if (theme === "halloween") {
       document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove("christmas");
       document.documentElement.classList.add("halloween");
-    } else {
+    } else if (theme === "christmas") {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove("halloween");
+      document.documentElement.classList.add("christmas");
+    }  else {
+      document.documentElement.classList.remove("christmas");
       document.documentElement.classList.remove("halloween");
       document.documentElement.classList.remove("dark");
     }

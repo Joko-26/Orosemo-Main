@@ -9,6 +9,7 @@ import Header from "../components/Header";
 import Footer from "@/components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import { SnowOverlay } from "@/components/snowOverlay";
 
 function RootLayout() {
   const routerState = useRouterState();
@@ -17,6 +18,7 @@ function RootLayout() {
   return (
     <>
       <Header />
+      <SnowOverlay/>
       <Outlet />
       <Footer />
       <TanStackRouterDevtools />

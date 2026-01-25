@@ -143,9 +143,9 @@ code {
 .christmas {
   --background: #000000;
   --foreground: #fafafa;
-  --highlight: #C7461A;
-  --highlight-hover: #FBAA38;
-  --highlight-light: #F26C23;
+  --highlight: #004100;
+  --highlight-hover: #fafafa;
+  --highlight-light: #005C00;
   --card: #231f2a;
   --card-foreground: #fcfcfc;
   --popover: #231f2a;
@@ -235,15 +235,15 @@ code {
 
 @layer components {
   .btn-primary {
-    @apply px-4 py-2 rounded-lg font-semibold text-foreground bg-highlight hover:bg-highlight-hover transition-colors cursor-pointer;
+    @apply px-4 py-2 rounded-lg font-semibold text-foreground bg-highlight-hover md:bg-highlight hover:bg-highlight-hover transition-colors cursor-pointer;
   }
 
   .card-border {
-    @apply border-4 rounded-lg border-highlight my-3 mx-4 md:mx-15 lg:mx-20 xl:mx-30 hover:border-highlight-light shadow-2xl transition-shadow duration-200 ease-in-out
+    @apply border-4 rounded-lg border-highlight-light md:border-highlight my-3 mx-4 md:mx-15 lg:mx-20 xl:mx-30 hover:border-highlight-light shadow-2xl transition-shadow duration-200 ease-in-out
   }
 
   .btn-link {
-    @apply px-4 py-2 rounded-lg font-semibold text-center text-highlight-hover hover:text-highlight bg-highlight hover:bg-highlight-hover transition-colors cursor-pointer min-w-5 md:min-w-15 lg:min-w-30 xl:min-w-50;
+    @apply px-4 py-2 rounded-lg font-semibold text-center text-highlight md:text-highlight-hover hover:text-highlight bg-highlight-light md:bg-highlight hover:bg-highlight-hover transition-colors cursor-pointer min-w-5 md:min-w-15 lg:min-w-30 xl:min-w-50;
   }
 
   .headline {
@@ -255,7 +255,7 @@ code {
   }
 
   .input {
-    @apply border-4 rounded-lg border-highlight hover:border-highlight-hover
+    @apply border-4 rounded-lg border-highlight-light md:border-highlight hover:border-highlight-hover
   }
 
   .site-headline {

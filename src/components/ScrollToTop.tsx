@@ -31,7 +31,7 @@ export default function ScrollToTopButton() {
           transition={{ duration: 0.25 }}
           className="
             fixed bottom-8 right-6 z-[9999]
-            rounded-full bg-highlight  text-white
+            rounded-full bg-highlight-light md:bg-highlight  text-highlight-hover hover:text-highlight
             p-6 shadow-lg hover:bg-highlight-hover
           "
         >
