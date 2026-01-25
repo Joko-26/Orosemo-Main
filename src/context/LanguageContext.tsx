@@ -30,8 +30,11 @@ interface LangContextType {
 const LanguageContext = createContext<LangContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  // reads current language from local storage (defaults to english)
-  const defaultLang = localStorage.getItem("lang") || Object.keys(translations)[0] || "en";
+  const preferredDefault = "en";
+  const stored = typeof window !== "undefined" ? localStorage.getItem("lang") : null;
+  const defaultLang =
+    stored ||
+    (translations[preferredDefault] ? preferredDefault : Object.keys(translations)[0] || "en");
   const [lang, setLang] = useState<LangCode>(defaultLang);
 
   // saves current language when changed
