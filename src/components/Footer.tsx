@@ -16,7 +16,7 @@ export default function Footer() {
     <div className="flex items-strech self-center justify-self-center py-4 bg-background border-t gap-4">
       <div className="flex gap-2">
         <motion.a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          href="https://orosemo.itch.io/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Itch.io"
