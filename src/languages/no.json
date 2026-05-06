@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Hallo, jeg er Joko26",
+      "overview": "Jeg er en **16 år gammel** programmerer fra **Tyskland** som elsker kodingen. Jeg begynte å programmere i en alder av 11 år med [Python](https://www.python.org/), og over tid har jeg utforsket mange forskjellige programmeringsspråk, verktøy og rammeverk. Jeg jobber hovedsakelig med webprosjekter, verktøy og [spill](https://orosemo.itch.io/) og prøver alltid å lære noe nytt og forbedre meg selv. Dette nettstedet er mitt sted for å dele det jeg jobber med og vise arbeidet jeg allerede har gjort."
+    },
+    "hysedux": {
+      "head": "Hallo, jeg er Hysedux",
+      "overview": "Jeg er en **16 år gammel** pixel art kunstner og programmerer fra **Tyskland** som elsker pixel art. Jeg begynte nylig med programmering og lager hovedsakelig pixel art i [Asesprite](https://www.aseprite.org/) og utvikler spill i [Godot](https://godotengine.org/). Mitt mål er å bli en god programmerer og lage små verktøy og spill som gjør livet lettere og bedre."
+    },
+    "transition": "Nedenfor kan du se noen av våre favoritt verktøy og teknologier som vi føler oss mest komfortable med.",
+    "skills": "Mine styrker:",
+    "skillsContent": "Rammeverket / teknologi jeg er mest kjent med.",
+    "tools": "Meine favoritt verktøy:",
+    "toolsContent": "Verktøyene jeg bruker mest.",
+    "games": "Mine favoritspill"
   }
 }

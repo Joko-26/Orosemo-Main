@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Zdravo, sem Joko26",
+      "overview": "Sem **16-letni** programer iz **Nemčije**, ki imam rad programiranje. Začel sem s programiranjem pri 11 letih z [Python](https://www.python.org/) in v času sem raziskal marsikatero različno programsko sredo, orodja in okvire. Delam v glavnem na spletnih projektih, orodjih in [igrah](https://orosemo.itch.io/) ter se vedno trudim naučiti kaj novega in napredovati. To spletno mesto je moje mesto za deljenje tega, kar sem počel delati in prikaz opravljenega dela."
+    },
+    "hysedux": {
+      "head": "Zdravo, sem Hysedux",
+      "overview": "Sem **16-letni** umetnik piksli art in programer iz **Nemčije**, ki imam rad piksli art. Pred kratkim sem začel s programiranjem in v glavnem ustvarjam piksli art v [Asesprite](https://www.aseprite.org/) ter razvijam igre v [Godot](https://godotengine.org/). Moj cilj je postati dober programer in ustvariti manjša orodja in igre, ki naredijo življenje enostavnejše in boljše."
+    },
+    "transition": "Spodaj si lahko ogledate nekatera naša priljubljena orodja in tehnologije, s katerimi se počutimo najbolj prijetno.",
+    "skills": "Moje prednosti:",
+    "skillsContent": "Ogrodja / tehnologija, ki je jaz najbolje poznam.",
+    "tools": "Moja priljubljena orodja:",
+    "toolsContent": "Orodja, ki jih največkrat uporabljam.",
+    "games": "Moje priljubljene igre"
   }
 }

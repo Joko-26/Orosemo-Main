@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Bună, sunt Joko26",
+      "overview": "Sunt un **programator de 16 ani** din **Germania** care iubesc programarea. Am început să programez la vârsta de 11 ani cu [Python](https://www.python.org/), și de-a lungul timpului am explorat o multitudine de limbaje, instrumente și cadre diferite. Lucrez în principal la proiecte web, instrumente și [jocuri](https://orosemo.itch.io/) încercând mereu să învăț ceva nou și să mă îmbunătățesc. Acest site web este locul meu pentru a împărtăși ce lucrez și pentru a arăta lucrul pe care l-am deja realizat."
+    },
+    "hysedux": {
+      "head": "Bună, sunt Hysedux",
+      "overview": "Sunt un **artist pixel art și programator de 16 ani** din **Germania** care iubesc pixel art. Am început recent programarea și creez în principal pixel art în [Asesprite](https://www.aseprite.org/) și dezvolt jocuri în [Godot](https://godotengine.org/). Scopul meu este să devin un bun programator și să creez mici instrumente și jocuri care fac viața mai ușoară și mai bună."
+    },
+    "transition": "Mai jos puteți vedea câteva dintre instrumentele și tehnologiile noastre preferate cu care ne simțim cel mai confortabil.",
+    "skills": "Punctele mele forte:",
+    "skillsContent": "Cadrele / tehnologia cu care sunt cel mai familiarizat.",
+    "tools": "Instrumentele mele preferate:",
+    "toolsContent": "Instrumentele pe care le folosesc cel mai des.",
+    "games": "Jocurile mele preferate"
   }
 }

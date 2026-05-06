@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Halló, ég er Joko26",
+      "overview": "Ég er **16 ára** forritari frá **Þýskalandi** sem elska forritun. Ég byrjaði að forrita 11 ára gömul með [Python](https://www.python.org/), og með tímanum hef ég kanna margar ólíkar forritunarmál, verkfæri og rammar. Ég vinn aðallega með vefverkefnum, verkfærum og [leikjum](https://orosemo.itch.io/) og reyni alltaf að læra eitthvað nýtt og bætast. Þessi vefsíða er staðurinn minn til að deila því sem ég vinn með og sýna verk sem ég hef þegar gert."
+    },
+    "hysedux": {
+      "head": "Halló, ég er Hysedux",
+      "overview": "Ég er **16 ára** pixel art listamaður og forritari frá **Þýskalandi** sem elska pixel art. Ég hóf nýlega forritun og geri aðallega pixel art í [Asesprite](https://www.aseprite.org/) og þróa leiki í [Godot](https://godotengine.org/). Markmiðið mitt er að verða góð forritari og búa til lítil verkfæri og leiki sem gera lífið auðveldara og betra."
+    },
+    "transition": "Hér að neðan geturðu séð sum af uppáhalds verkfærum okkar og tækni sem okkur þykir mest þægilegt með.",
+    "skills": "Styrkir mínir:",
+    "skillsContent": "Rammar / tækni sem ég þekki best.",
+    "tools": "Heitir verkfæri mín:",
+    "toolsContent": "Verkfæri sem ég nota oftast.",
+    "games": "Heitir leikir mínir"
   }
 }

@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Hai, saya Joko26",
+      "overview": "Saya adalah **pemrogram berusia 16 tahun** dari **Jerman** yang mencintai pengkodean. Saya mulai memprogram pada usia 11 tahun dengan [Python](https://www.python.org/), dan seiring waktu saya telah mengeksplorasi banyak bahasa, alat, dan kerangka kerja yang berbeda. Saya terutama bekerja pada proyek web, alat, dan [permainan](https://orosemo.itch.io/) selalu berusaha mempelajari sesuatu yang baru dan meningkatkan diri. Situs web ini adalah tempat saya untuk berbagi apa yang sedang saya kerjakan dan menampilkan pekerjaan yang telah saya lakukan."
+    },
+    "hysedux": {
+      "head": "Hai, saya Hysedux",
+      "overview": "Saya adalah **seniman pixel art dan pemrogram berusia 16 tahun** dari **Jerman** yang mencintai pixel art. Saya baru-baru ini mulai memprogram dan terutama membuat pixel art di [Asesprite](https://www.aseprite.org/) dan mengembangkan permainan di [Godot](https://godotengine.org/). Tujuan saya adalah menjadi pemrogram yang baik dan membuat alat dan permainan kecil yang membuat hidup lebih mudah dan lebih baik."
+    },
+    "transition": "Di bawah ini Anda dapat melihat beberapa alat favorit kami dan teknologi yang membuat kami paling nyaman.",
+    "skills": "Kekuatan saya:",
+    "skillsContent": "Kerangka kerja / teknologi yang paling saya kenal.",
+    "tools": "Alat favorit saya:",
+    "toolsContent": "Alat yang paling sering saya gunakan.",
+    "games": "Permainan favorit saya"
   }
 }

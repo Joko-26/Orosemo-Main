@@ -21,6 +21,7 @@ import { Separator } from "@/components/ui/separator";
 import ReactMarkdown from "react-markdown";
 import { motion } from "framer-motion";
 import { useImages } from "@/context/ImageContext";
+import { useState } from "react";
 
 export const Route = createFileRoute("/about")({
   component: RouteComponent,
@@ -30,8 +31,46 @@ function RouteComponent() {
   const { pfp } = useImages();
   const { t } = useLanguage();
 
+  const [person, setPerson] = useState<string>("joko26");
+  const [hyseduxStyle, setHyseduxStyle] = useState<string>(
+    "about-person-switcher",
+  );
+  const [joko26Style, setJoko2Style] = useState<string>(
+    "about-person-switcher-active",
+  );
+
   return (
     <div className="flex flex-col items-center text-center m-6 mini-headline">
+      <div className="space-x-3">
+        <button
+          className={joko26Style}
+          onClick={() => {
+            setPerson("joko26");
+            setHyseduxStyle(
+              "about-person-switcher",
+            );
+            setJoko2Style(
+              "about-person-switcher-active",
+            );
+          }}
+        >
+          Joko26
+        </button>
+        <button
+          className={hyseduxStyle}
+          onClick={() => {
+            setPerson("hysedux");
+            setHyseduxStyle(
+              "about-person-switcher-active",
+            );
+            setJoko2Style(
+              "about-person-switcher",
+            );
+          }}
+        >
+          Hysedux
+        </button>
+      </div>
       <div>
         <img
           className="rounded-full justify-self-center self-center max-w-20 md:justify-self-start md:max-w-30 lg:max-w-40 xl:max-w-50"
@@ -39,7 +78,9 @@ function RouteComponent() {
           alt=""
         />
       </div>
-      <h1 className="headline leading-relaxed">{t?.aboutPage?.head}</h1>
+      <h1 className="headline leading-relaxed">
+        {t?.aboutPage?.[person]?.head}
+      </h1>
       <div className=" mx-4 md:mx-15 lg:mx-20 xl:mx-30">
         <p className="site-headline">
           <ReactMarkdown
@@ -54,12 +95,12 @@ function RouteComponent() {
               ),
             }}
           >
-            {t?.aboutPage?.overview}
+            {t?.aboutPage?.[person]?.overview}
           </ReactMarkdown>
         </p>
         <p className="site-headline">{t?.aboutPage?.transition}</p>
       </div>
-      <div className="flex flex-col items-center justify-center gap-y-2 mx-10 sm:mx-5 md:mx-0 w-full max-w-sm sm:max-w-lg md:max-w-xl lg:max-w-3xl xl:max-w-6xl" >
+      <div className="flex flex-col items-center justify-center gap-y-2 mx-10 sm:mx-5 md:mx-0 w-full max-w-sm sm:max-w-lg md:max-w-xl lg:max-w-3xl xl:max-w-6xl">
         <div className=" card-border p-5 gap-6 w-full max-w-sm sm:max-w-lg md:max-w-xl lg:max-w-3xl xl:max-w-6xl">
           <span className="site-headline">{t?.aboutPage?.tools}</span>
           <p className="text-xs md:sm lg:text-base xl:text-lg">
@@ -220,9 +261,8 @@ function RouteComponent() {
               <SiReact className="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12" />
             </motion.a>
           </div>
-        </div>  
+        </div>
       </div>
-      
     </div>
   );
 }

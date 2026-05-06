@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Terve, olen Joko26",
+      "overview": "Olen **16-vuotias** ohjelmoija **Saksasta**, joka rakastaa ohjelmointia. Aloitin ohjelmoinnin 11-vuotiaana [Pythonilla](https://www.python.org/) ja olen ajan myötä tutkinut monia erilaisia ohjelmointikieliä, työkaluja ja kehyksiä. Työskentelen pääasiassa web-projekteissa, työkaluissa ja [peleissä](https://orosemo.itch.io/) yrittäen aina oppia jotain uutta ja parantua. Tämä verkkosivu on paikkani jakaa, mistä työskentelen, ja näyttää tekemääni työtä."
+    },
+    "hysedux": {
+      "head": "Terve, olen Hysedux",
+      "overview": "Olen **16-vuotias** pixel art -taiteilija ja ohjelmoija **Saksasta**, joka rakastaa pixel artia. Aloitin äskettäin ohjelmoinnin ja teen pääasiassa pixel artia [Asepritessä](https://www.aseprite.org/) ja kehitän pelejä [Godotissa](https://godotengine.org/). Tavoitteeni on tulla hyväksi ohjelmoinniksi ja luoda pieniä työkaluja ja pelejä, jotka tekevät elämästä helpompaa ja parempaa."
+    },
+    "transition": "Alla voit nähdä joitain suosikkityökaluistamme ja tekniikoista, joiden kanssa viihdymme eniten.",
+    "skills": "Vahvuuksiani:",
+    "skillsContent": "Kehykset / tekniikka, joihin tunnen parhaiten.",
+    "tools": "Suosikkityökaluni:",
+    "toolsContent": "Työkalut, joita käytän useimmiten.",
+    "games": "Suosikkipelini"
   }
 }

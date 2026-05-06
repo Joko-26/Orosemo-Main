@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "你好，我是Joko26",
+      "overview": "我是来自**德国**的**16岁**程序员，热爱编程。我在11岁时开始用[Python](https://www.python.org/)编程，随着时间的推移，我探索了许多不同的编程语言、工具和框架。我主要从事web项目、工具和[游戏](https://orosemo.itch.io/)的开发，总是试图学习新东西并自我提升。这个网站是我分享正在进行的工作并展示已经完成的作品的地方。"
+    },
+    "hysedux": {
+      "head": "你好，我是Hysedux",
+      "overview": "我是来自**德国**的**16岁**像素艺术家和程序员，热爱像素艺术。我最近开始编程，主要在[Asesprite](https://www.aseprite.org/)中创建像素艺术，并在[Godot](https://godotengine.org/)中开发游戏。我的目标是成为一名优秀的程序员，创建让生活变得更简单、更美好的小工具和游戏。"
+    },
+    "transition": "下面你可以看到我们最喜欢的一些工具和技术，这是我们最熟悉的。",
+    "skills": "我的优势:",
+    "skillsContent": "我最熟悉的框架/技术。",
+    "tools": "我最喜欢的工具:",
+    "toolsContent": "我最常用的工具。",
+    "games": "我最喜欢的游戏"
   }
 }

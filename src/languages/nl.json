@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Hallo, ik ben Joko26",
+      "overview": "Ik ben een **16-jarige** programmeur uit **Duitsland** die van programmeren houdt. Ik ben begonnen met programmeren op 11-jarige leeftijd met [Python](https://www.python.org/), en ik heb in de loop der tijd veel verschillende talen, gereedschappen en raamwerken verkend. Ik werk vooral aan webprojecten, gereedschappen en [games](https://orosemo.itch.io/) en probeer altijd iets nieuws te leren en me te verbeteren. Deze website is mijn plek om te delen waar ik aan werk en het werk dat ik al heb gedaan te tonen."
+    },
+    "hysedux": {
+      "head": "Hallo, ik ben Hysedux",
+      "overview": "Ik ben een **16-jarige** pixel art kunstenaar en programmeur uit **Duitsland** die van pixel art houdt. Ik ben onlangs begonnen met programmeren en maak vooral pixel art in [Asesprite](https://www.aseprite.org/) en ontwikkel games in [Godot](https://godotengine.org/). Mijn doel is een goed programmeur te worden en kleine gereedschappen en games te creëren die het leven gemakkelijker en beter maken."
+    },
+    "transition": "Hieronder kunt u enkele van onze favoriete gereedschappen en technologieën zien waar we ons het meest comfortabel bij voelen.",
+    "skills": "Mijn sterke punten:",
+    "skillsContent": "De raamwerken / technologie waarmee ik het best bekend ben.",
+    "tools": "Mijn favoriete gereedschappen:",
+    "toolsContent": "De gereedschappen die ik het meest gebruik.",
+    "games": "Mijn favoriete games"
   }
 }

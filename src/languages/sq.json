@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Përshëndetje, unë jam Joko26",
+      "overview": "Unë jam një **programer 16 vjeç** nga **Gjermania** i cili dua programimin. Fillova të programoj në moshën 11 vjeç me [Python](https://www.python.org/), dhe me kalimin e kohës kam eksploruar shumë gjuhë, vegla dhe kuadro të ndryshme. Punojnë në proyekte ueb, vegla dhe [lojëra](https://orosemo.itch.io/) duke u përpjekur gjithmonë të mësojë diçka të re dhe të përmirësohem. Ky faqe interneti është vendi im për të ndarë atë në të cilën po punoj dhe për të shfaqur punën që kam bërë tashmë."
+    },
+    "hysedux": {
+      "head": "Përshëndetje, unë jam Hysedux",
+      "overview": "Unë jam një **artist pixel art dhe programer 16 vjeç** nga **Gjermania** i cili dua pixel art-in. Fillova të programoj kohëve të fundit dhe kryesisht krijon pixel art në [Asesprite](https://www.aseprite.org/) dhe zhvilloj lojëra në [Godot](https://godotengine.org/). Qëllimi im është të bëhem programer i mirë dhe të krijoni vegla dhe lojëra të vogla që e bëjnë jetën më të lehtë dhe më të mirë."
+    },
+    "transition": "Më poshtë mund të shihni disa nga veglat dhe teknologjitë tona të preferuara me të cilat ndihemi më të rehatshëm.",
+    "skills": "Përparësitë e mia:",
+    "skillsContent": "Kuadro / teknologjia me të cilën jam më i njohur.",
+    "tools": "Vegla e mia të preferuara:",
+    "toolsContent": "Vegla që përdor më shumë.",
+    "games": "Lojërat e mia të preferuara"
   }
 }

@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Ahoj, jsem Joko26",
+      "overview": "Jsem **16letý** programátor z **Německa**, který miluje kódování. Začal jsem programovat ve 11 letech s [Python](https://www.python.org/) a postupem času jsem prozkoumával spoustu různých jazyků, nástrojů a rámců. Pracuji především na webových projektech, nástrojích a [hrách](https://orosemo.itch.io/) a vždy se snažím naučit se něco nového a zlepšit se. Tento web je moje místo k dělení se o tom, na čem pracuji, a k předvedení práce, kterou jsem již udělal."
+    },
+    "hysedux": {
+      "head": "Ahoj, jsem Hysedux",
+      "overview": "Jsem **16letý** umělec pixel artu a programátor z **Německa**, který miluje pixel art. Nedávno jsem začal programovat a především tvořím pixel art v [Asesprite](https://www.aseprite.org/) a vyvíjím hry v [Godot](https://godotengine.org/). Mým cílem je stát se dobrým programátorem a vytvářet malé nástroje a hry, které činí život jednodušším a lepším."
+    },
+    "transition": "Níže si můžete prohlédnout některé z našich oblíbených nástrojů a technologií, se kterými se cítíme nejpohodlněji.",
+    "skills": "Naše silné stránky:",
+    "skillsContent": "Rámce / technologie, se kterými jsme nejlépe seznámeni.",
+    "tools": "Naše oblíbené nástroje:",
+    "toolsContent": "Nástroje, které používáme nejčastěji.",
+    "games": "Naše oblíbené hry"
   }
 }

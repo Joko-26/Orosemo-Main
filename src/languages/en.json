@@ -22,8 +22,8 @@
         "linkName": "Join now"
       },
       "itch": {
-        "head": "My Itch.io page",
-        "text": "Here you’ll find all my games, plus everything else related to them: asset packs, demos, Game Jam projects (small gamedev competitions (WIP 😅) and more. Follow me if you want to see everything ill build in the future!",
+        "head": "Our Itch.io page",
+        "text": "Here you'll find all our games, plus everything else related to them: asset packs, demos, Game Jam projects (small gamedev competitions (WIP 😅) and more. Follow us if you want to see everything we'll build in the future!",
         "img": "/cardImg/itch.png",
         "link": "https://orosemo.itch.io/",
         "linkName": "View now"
@@ -86,26 +86,26 @@
         }
       },
 
-      "Follow me on:": {
+      "Follow us on:": {
         "Bluesky": {
           "img": "/cardImg/bluesky.png",
           "link": "https://bsky.app/profile/orosemo.de",
-          "button": "Follow me"
+          "button": "Follow us"
         },
         "Itch.io": {
           "img": "/cardImg/itch.png",
           "link": "https://orosemo.itch.io/",
-          "button": "Follow me"
+          "button": "Follow us"
         },
         "Youtube": {
           "img": "/cardImg/youtube.png",
           "link": "https://www.youtube.com/@Orosemo",
-          "button": "Follow me"
+          "button": "Follow us"
         },
         "Github": {
           "img": "/cardImg/github.png",
           "link": "https://github.com/Joko-26",
-          "button": "Follow me"
+          "button": "Follow us"
         }
       },
 
@@ -125,13 +125,19 @@
   },
 
   "aboutPage":{
-    "head":"Hi, I'm Joko26",
-    "overview": "I’m a **16-year-old** programmer from **Germany** who loves coding. I started programming when I was 11, beginning with [Python](https://www.python.org/), and over time I’ve explored a bunch of different languages, tools, and frameworks. I mostly work on web projects, tools, and [games](https://orosemo.itch.io/) always trying to learn something new and improve along the way. This website is my place to share what I’m working on and showcase the work I already did.",
-    "transition": "Below you can see some of my favorite tools and the technologies I’m most comfortable with.",
-    "skills":"My strenghts:",
-    "skillsContent": "The frameworks/technology i'm most familiar with.",
-    "tools":"My favourite tools:",
-    "toolsContent": "The tools i use most frequently.",
-    "games":"My favourite games"
+    "joko26": {
+      "head": "Hi, I'm Joko26",
+      "overview": "I'm a **16-year-old** programmer from **Germany** who loves coding. I started programming when I was 11, beginning with [Python](https://www.python.org/), and over time I've explored a bunch of different languages, tools, and frameworks. I mostly work on web projects, tools, and [games](https://orosemo.itch.io/) always trying to learn something new and improve along the way. This website is my place to share what I'm working on and showcase the work I already did."
+    },
+    "hysedux": {
+      "head": "Hi, I'm Hysedux",
+      "overview": "I'm a **16-year-old** pixel art artist and programmer from **Germany** who loves pixel art. I recently started programming and mainly do pixel art in [Asesprite](https://www.aseprite.org/) and develop games in [Godot](https://godotengine.org/). My goal is to become a good programmer and create small tools and games that make life easier and better."
+    },
+    "transition": "Below you can see some of our favorite tools and the technologies we're most comfortable with.",
+    "skills": "Our strengths:",
+    "skillsContent": "The frameworks/technology we're most familiar with.",
+    "tools": "Our favourite tools:",
+    "toolsContent": "The tools we use most frequently.",
+    "games": "Our favourite games"
   }
 }

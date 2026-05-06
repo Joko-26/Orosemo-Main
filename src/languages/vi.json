@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Xin chào, tôi là Joko26",
+      "overview": "Tôi là một **lập trình viên 16 tuổi** từ **Đức** yêu thích lập trình. Tôi bắt đầu lập trình ở tuổi 11 bằng [Python](https://www.python.org/) và theo thời gian, tôi đã khám phá nhiều ngôn ngữ, công cụ và khung công tác khác nhau. Tôi chủ yếu làm việc trên các dự án web, công cụ và [trò chơi](https://orosemo.itch.io/) luôn cố gắng tìm hiểu điều gì đó mới và cải thiện. Trang web này là nơi tôi chia sẻ những gì tôi đang làm và trưng bày công việc tôi đã hoàn thành."
+    },
+    "hysedux": {
+      "head": "Xin chào, tôi là Hysedux",
+      "overview": "Tôi là một **nhà nghệ thuật pixel art và lập trình viên 16 tuổi** từ **Đức** yêu thích pixel art. Tôi gần đây bắt đầu lập trình và chủ yếu tạo pixel art trong [Asesprite](https://www.aseprite.org/) và phát triển trò chơi trong [Godot](https://godotengine.org/). Mục đích của tôi là trở thành một lập trình viên giỏi và tạo các công cụ và trò chơi nhỏ làm cho cuộc sống dễ dàng và tốt hơn."
+    },
+    "transition": "Dưới đây, bạn có thể xem một số công cụ và công nghệ yêu thích của chúng tôi mà chúng tôi cảm thấy thoải mái nhất.",
+    "skills": "Những điểm mạnh của tôi:",
+    "skillsContent": "Các khung công tác / công nghệ mà tôi quen thuộc nhất.",
+    "tools": "Công cụ yêu thích của tôi:",
+    "toolsContent": "Những công cụ tôi sử dụng thường xuyên nhất.",
+    "games": "Những trò chơi yêu thích của tôi"
   }
 }

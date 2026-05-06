@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Merhaba, ben Joko26 yım",
+      "overview": "Ben **Almanya'dan** 16 yaşında kodlamayı seven bir **programcıyım**. 11 yaşında [Python](https://www.python.org/) ile programlamaya başladım ve zaman içinde birçok farklı dil, araç ve çerçeve keşfettim. Ağırlıklı olarak web projeleri, araçlar ve [oyunlar](https://orosemo.itch.io/) üzerinde çalışıyorum, her zaman yeni bir şey öğrenmeye ve kendimi geliştirmeye çalışıyorum. Bu web sitesi, üzerinde çalıştığım şeyleri paylaştığım ve zaten yaptığım işi gösterdiğim yerdir."
+    },
+    "hysedux": {
+      "head": "Merhaba, ben Hysedux yım",
+      "overview": "Ben **Almanya'dan** 16 yaşında pixel art sanatçısı ve pixel artı seven bir **programcıyım**. Son zamanlarda programlamaya başladım ve ağırlıklı olarak [Asesprite](https://www.aseprite.org/) içinde pixel art oluşturuyor ve [Godot](https://godotengine.org/) içinde oyun geliştiriyorum. Hedefim iyi bir programcı olmak ve hayatı daha kolay ve daha iyi yapan küçük araçlar ve oyunlar yaratmaktır."
+    },
+    "transition": "Aşağıda, favori araçlarımızı ve en rahat hissettiğimiz teknolojileri görebilirsiniz.",
+    "skills": "Benim güçlü yönlerim:",
+    "skillsContent": "En iyi tanıdığım çerçeve / teknoloji.",
+    "tools": "Benim favori araçlarım:",
+    "toolsContent": "En sık kullandığım araçlar.",
+    "games": "Benim favori oyunlarım"
   }
 }

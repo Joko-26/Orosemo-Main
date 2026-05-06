@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Tere, olen Joko26",
+      "overview": "Olen **16aastane** programmeerija **Saksamaalt**, kes armastab programmeerimist. Alustasin programmeerimist 11aastaselt [Python'iga](https://www.python.org/) ja aja jooksul olen uurinud paljusid erinevaid keeli, tööriistu ja raamistikke. Töötlen peamiselt veebiprojektidel, tööriistadel ja [mängudel](https://orosemo.itch.io/), alati püüdes õppida midagi uut ja paraneda. See veebisait on minu koht jagada, mille kallal töötan, ja näidata tööd, mille olen juba teinud."
+    },
+    "hysedux": {
+      "head": "Tere, olen Hysedux",
+      "overview": "Olen **16aastane** pikselikunsti kunstnik ja programmeerija **Saksamaalt**, kes armastab pikselikunsti. Hiljuti alustasin programmeerimist ja teen peamiselt pikselikunsti [Aseprite's](https://www.aseprite.org/) ja arendan mänge [Godot's](https://godotengine.org/). Minu eesmärk on saada heaks programmeerijaks ja luua väikeseid tööriistu ja mänge, mis teevad elu lihtsamaks ja paremaks."
+    },
+    "transition": "Allpool näete mõningaid meie lemmikute tööriistu ja tehnoloogiaid, millega meil on kõige mugavam.",
+    "skills": "Meie tugevused:",
+    "skillsContent": "Raamistikud / tehnoloogia, millega oleme kõige paremini tuttavad.",
+    "tools": "Meie lemmikutööriistad:",
+    "toolsContent": "Tööriistad, mida kasutame kõige rohkem.",
+    "games": "Meie lemmikumängud"
   }
 }

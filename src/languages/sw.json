@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Habari, mimi ni Joko26",
+      "overview": "Mimi ni **mtumiaji wa kuumba umri wa 16 miaka** kutoka **Ujerumani** ambaye inamaanisha uprogramaji. Nilianzia kusimba umbizi mwaka wa 11 na [Python](https://www.python.org/), na kwa muda niliyokuwa nikinukuza lugha, zana na muundo mwingi tofauti. Ninafanya kazi kwa wazi kwa mradi wa simu, zana na [michezo](https://orosemo.itch.io/) siku zote nikijaribu kujifunza kitu kipya na kuboreshwa. Tovuti hii ndilo mahali pangu kwa kumimina nini ningefanya na kuonyesha kazi tayari nimeufanya."
+    },
+    "hysedux": {
+      "head": "Habari, mimi ni Hysedux",
+      "overview": "Mimi ni **msanii wa simu ya pixel na mtumiaji wa kuumba umri wa 16 miaka** kutoka **Ujerumani** ambaye inamaanisha simu ya pixel. Nilianza kusimba umbizi vya kawaida na kwa wazi ninakuwa simu ya pixel katika [Asesprite](https://www.aseprite.org/) na kupanua michezo katika [Godot](https://godotengine.org/). Mujibu wangu ni kuwa mtumiaji mzuri wa kusimba na kuumba zana nzuri na michezo inayofanya maisha rahisi na bora."
+    },
+    "transition": "Chini hapa unaweza kuona baadhi ya zana zetu na teknolojia ambazo tunajisikia vizuri nao.",
+    "skills": "Kila kitu kipya kiko:",
+    "skillsContent": "Muundo / teknoohia na ninajua kumbe.",
+    "tools": "Zana yangu ya ziwa:",
+    "toolsContent": "Zana tunayozitumia kupinga.",
+    "games": "Michezo yangu ya ziwa"
   }
 }

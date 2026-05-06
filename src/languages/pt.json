@@ -84,21 +84,21 @@
           "button": "Juntar-se"
         }
       },
-      "Siga-me em:": {
+      "Siga-nos em:": {
         "Bluesky": {
           "img": "/cardImg/bluesky.png",
           "link": "https://bsky.app/profile/orosemo.de",
-          "button": "Seguir"
+          "button": "Siga-nos"
         },
         "Itch.io": {
           "img": "/cardImg/itch.png",
           "link": "https://orosemo.itch.io/",
-          "button": "Seguir"
+          "button": "Siga-nos"
         },
         "Youtube": {
           "img": "/cardImg/youtube.png",
           "link": "https://www.youtube.com/@orosemo",
-          "button": "Seguir"
+          "button": "Siga-nos"
         }
       },
       "Ou entre em contato diretamente:": {
@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Oi, eu sou Joko26",
+      "overview": "Sou um **programador de 16 anos** da **Alemanha** que ama programação. Comecei a programar aos 11 anos com [Python](https://www.python.org/) e, ao longo do tempo, explorei muitas linguagens, ferramentas e frameworks diferentes. Trabalho principalmente em projetos web, ferramentas e [jogos](https://orosemo.itch.io/) sempre tentando aprender algo novo e melhorar. Este site é meu lugar para compartilhar no que estou trabalhando e mostrar o trabalho que já fiz."
+    },
+    "hysedux": {
+      "head": "Oi, eu sou Hysedux",
+      "overview": "Sou um **artista pixel art e programador de 16 anos** da **Alemanha** que ama pixel art. Comecei a programar recentemente e faço principalmente pixel art em [Asesprite](https://www.aseprite.org/) e desenvolvo jogos em [Godot](https://godotengine.org/). Meu objetivo é me tornar um bom programador e criar pequenas ferramentas e jogos que tornem a vida mais fácil e melhor."
+    },
+    "transition": "Abaixo você pode ver algumas de nossas ferramentas favoritas e tecnologias com as quais nos sentimos mais confortáveis.",
+    "skills": "Nossos pontos fortes:",
+    "skillsContent": "Os frameworks/tecnologias com as quais estamos mais familiarizados.",
+    "tools": "Nossas ferramentas favoritas:",
+    "toolsContent": "As ferramentas que usamos com mais frequência.",
+    "games": "Nossos jogos favoritos"
   }
 }

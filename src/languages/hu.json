@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Sziasztok, én vagyok Joko26",
+      "overview": "Én egy **16 éves** programozó vagyok **Németországból**, aki szereti a programozást. 11 éves koromban kezdtem a programozást [Python](https://www.python.org/) segítségével, és az idő során számos különböző programozási nyelvet, eszközt és keretrendszert tanulmányoztam. Főleg webes projekteken, eszközökön és [játékokon](https://orosemo.itch.io/) dolgozom, mindig új dolgokat tanulva és fejlődve. Ez a weboldal az én helye arra, hogy megoszszam, mire dolgozom, és megmutassam az eddig elvégzett munkáimat."
+    },
+    "hysedux": {
+      "head": "Sziasztok, én vagyok Hysedux",
+      "overview": "Én egy **16 éves** pixel art művész és programozó vagyok **Németországból**, aki szereti a pixel artot. Nemrégiben kezdtem a programozást, és főleg pixel artot készítek az [Aseprite](https://www.aseprite.org/) programban és játékokat fejlesztek a [Godot](https://godotengine.org/) motorban. Célom, hogy jó programozó legyek, és olyan kis eszközöket és játékokat hozzak létre, amelyek könnyebbé és jobbá teszik az életet."
+    },
+    "transition": "Alább láthatod néhányat a kedvenc eszközeink közül és olyan technológiákról, amelyekkel a legjobban érezzük magunkat.",
+    "skills": "Az én erősségeim:",
+    "skillsContent": "Az keretrendszerek / technológia, amivel a legjobban ismerek.",
+    "tools": "Az én kedvenc eszközei:",
+    "toolsContent": "Az eszközök, amelyeket a leggyakrabban használok.",
+    "games": "Az én kedvenc játékai"
   }
 }

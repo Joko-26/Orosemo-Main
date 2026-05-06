@@ -109,5 +109,22 @@
         }
       }
     }
+  },
+
+  "aboutPage": {
+    "joko26": {
+      "head": "Sveiki, aš Joko26",
+      "overview": "Aš **16 metų** programuotojas iš **Vokietijos**, mėgstantis programavimą. Pradėjau programuoti 11 metų su [Python](https://www.python.org/) ir per laiką tyrinėjau daug skirtingų kalbų, įrankių ir sistemų. Daugiausia dirbu su žiniatinklio projektais, įrankiais ir [žaidimais](https://orosemo.itch.io/) visada stengdamasis mokytis ko nors naujo ir tobulėti. Šis svetainė yra mano vieta, kurioje dalijuosi tuo, ant ko dirbiu, ir parodyti jau atliktą darbą."
+    },
+    "hysedux": {
+      "head": "Sveiki, aš Hysedux",
+      "overview": "Aš **16 metų** pikselių meno menininkas ir programuotojas iš **Vokietijos**, mėgstantis pikselių meną. Neseniai pradėjau programuoti ir daugiausia kuriu pikselių meną [Asesprite](https://www.aseprite.org/) ir sukuriu žaidimus [Godot](https://godotengine.org/). Mano tikslas yra tapti geru programuotoju ir kurti mažus įrankius bei žaidimus, kurie padaro gyvenimą lengvesnį ir geresnį."
+    },
+    "transition": "Žemiau galite pamatyti kai kuriuos iš mūsų mėgstamų įrankių ir technologijų, su kuriomis jaučiamės patogiai.",
+    "skills": "Mano stiprybės:",
+    "skillsContent": "Sistemos / technologija, kurias geriausiai pažįstu.",
+    "tools": "Mano mėgiamiausi įrankiai:",
+    "toolsContent": "Įrankiai, kuriuos naudoju dažniausiai.",
+    "games": "Mano mėgiamiausi žaidimai"
   }
 }
