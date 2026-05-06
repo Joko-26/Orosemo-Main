@@ -7,6 +7,7 @@ import { useState } from "react";
 import { ProjectCard } from "../components/Cards";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
+import Fuse from 'fuse.js'
 
 export const Route = createFileRoute("/games")({
   component: RouteComponent,
@@ -16,11 +17,19 @@ function RouteComponent() {
   const { t } = useLanguage();
 
   const [query, SetQuery] = useState("");
-  const games = Object.entries(t.gamesPage?.games);
+  const games = Object.entries(t.gamesPage?.games ?? {}).map(([name, game]) => ({
+    name,
+    ...game,
+  }));
 
-  const filteredGames = games.filter(([name]) =>
-    name.toLowerCase().includes(query.toLowerCase()),
-  );
+  const fuse = new Fuse(games, {
+    keys: ["name"],
+    includeScore: true,
+  });
+
+  const filteredGames = query
+    ? fuse.search(query).map(({ item }) => item)
+    : games;
 
   function resetSearch() {
     SetQuery("");
@@ -66,9 +75,9 @@ function RouteComponent() {
 
       </div>
       <div className="flex flex-col items-center justify-center gap-y-2 mx-10 sm:mx-5 md:mx-0">
-        {filteredGames.map(([name, game]) => (
+        {filteredGames.map((game) => (
           <ProjectCard
-            Name={name}
+            Name={game.name}
             description={game.description}
             image={game.img}
             link={game.link}

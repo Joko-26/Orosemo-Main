@@ -7,6 +7,7 @@ import { useState } from "react";
 import { ProjectCard } from "../components/Cards";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
+import Fuse from 'fuse.js'
 
 export const Route = createFileRoute("/tools")({
   component: RouteComponent,
@@ -16,11 +17,19 @@ function RouteComponent() {
   const { t } = useLanguage();
 
   const [query, SetQuery] = useState("");
-  const tools = Object.entries(t.toolsPage?.tools);
+  const tools = Object.entries(t.toolsPage?.tools ?? {}).map(([name, tool]) => ({
+    name,
+    ...tool,
+  }));
 
-  const filteredTools = tools.filter(([name]) =>
-    name.toLowerCase().includes(query.toLowerCase())
-  );
+  const fuse = new Fuse(tools, {
+    keys: ["name"],
+    includeScore: true,
+  });
+
+  const filteredTools = query
+    ? fuse.search(query).map(({ item }) => item)
+    : tools;
 
   function resetSearch() {
     SetQuery("");
@@ -39,7 +48,7 @@ function RouteComponent() {
               whileFocus={{ scale: 1 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
               className="px-4 py-2 pr-10 input"
-              placeholder={t?.gamesPage?.search}
+              placeholder={t?.toolsPage?.search}
               onChange={(e) => SetQuery(e.target.value)}
               value={query}
             />
@@ -65,9 +74,9 @@ function RouteComponent() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-y-2 mx-10 sm:mx-5 md:mx-0">
-        {filteredTools.map(([name, tool]) => (
+        {filteredTools.map((tool) => (
           <ProjectCard
-            Name={name}
+            Name={tool.name}
             description={tool.description}
             image={tool.img}
             link={tool.link1.split("*")[0]}
